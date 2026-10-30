@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kamu Misafirhaneleri</title>
+<meta name="description" content="Türkiye'deki kamu misafirhaneleri, öğretmenevleri ve sosyal tesisleri: harita, liste ve güncel değişiklikler.">
+<link rel="alternate" type="application/rss+xml" title="Değişiklikler" href="rss.xml">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header><div class="ic">
+  <h1>Kamu Misafirhaneleri</h1>
+  <nav><a href="./">Harita</a><a href="degisiklikler.html">Değişiklikler</a><a href="rss.xml">RSS</a><a href="#veri">Veri</a></nav>
+</div></header>
+<main>
+  <div class="ozet">
+    <div><b id="s-toplam">–</b><span class="soluk">tesis</span></div>
+    <div><b id="s-il">–</b><span class="soluk">il</span></div>
+    <div><b id="s-gorunen">–</b><span class="soluk">filtrede</span></div>
+    <div><b id="s-guncel">–</b><span class="soluk">son güncelleme</span></div>
+  </div>
+  <div class="filtre">
+    <input id="f-ara" type="search" placeholder="Ad, ilçe veya adres ara…" aria-label="Ara">
+    <select id="f-bakanlik" aria-label="Bakanlık"><option value="">Tüm bakanlıklar</option></select>
+    <select id="f-il" aria-label="İl"><option value="">Tüm iller</option></select>
+  </div>
+  <div class="duzen"><div id="harita"></div><div id="liste" aria-live="polite"></div></div>
+</main>
+<footer id="veri">
+  Veriler resmî kurum sitelerinden otomatik derlenir ve hata içerebilir; rezervasyon öncesi tesisi arayarak teyit edin.
+  Konumlar adres/ilçe merkezine göre yaklaşıktır. ·
+  İndir: <a href="misafirhaneler.geojson">GeoJSON</a> · <a href="misafirhaneler.csv">CSV</a> · <a href="metadata.xml">ISO 19139 üst veri</a> ·
+  Harita © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıcıları
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script src="uygulama.js"></script>
+</body>
+</html>

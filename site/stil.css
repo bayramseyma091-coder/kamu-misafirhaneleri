@@ -1,0 +1,32 @@
+:root{--zemin:#f6f7f9;--kart:#fff;--metin:#1b1f24;--soluk:#5b6573;--cizgi:#dde1e6;--vurgu:#b3261e;--yeni:#1e7d3a;--guncel:#9a6700;--kapali:#b3261e;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--zemin:#121417;--kart:#1b1e23;--metin:#e7e9ec;--soluk:#9aa3ad;--cizgi:#2c3138;--vurgu:#ff8a80;--yeni:#5fd17f;--guncel:#e3b341;--kapali:#ff8a80;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--zemin);color:var(--metin)}
+a{color:var(--vurgu)}
+header{background:var(--kart);border-bottom:1px solid var(--cizgi);padding:14px 16px}
+header .ic{max-width:1300px;margin:auto;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between}
+h1{font-size:20px;margin:0}
+nav a{margin-left:16px;text-decoration:none;font-weight:500}
+nav a:first-child{margin-left:0}
+main{max-width:1300px;margin:auto;padding:16px}
+.soluk{color:var(--soluk)}
+.ozet{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:12px}
+.ozet div{background:var(--kart);border:1px solid var(--cizgi);border-radius:8px;padding:8px 14px}
+.ozet b{font-size:20px;display:block}
+.filtre{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.filtre input,.filtre select{font:inherit;padding:8px 10px;border:1px solid var(--cizgi);border-radius:6px;background:var(--kart);color:var(--metin);min-width:0;flex:1 1 180px}
+.duzen{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:12px}
+#harita{height:calc(100vh - 260px);min-height:420px;border-radius:8px;border:1px solid var(--cizgi)}
+#liste{height:calc(100vh - 260px);min-height:420px;overflow:auto;background:var(--kart);border:1px solid var(--cizgi);border-radius:8px}
+.tesis{padding:10px 14px;border-bottom:1px solid var(--cizgi);cursor:pointer}
+.tesis:hover{background:var(--zemin)}
+.tesis h3{font-size:15px;margin:0 0 2px}
+.tesis p{margin:0;font-size:13px}
+@media (max-width:800px){.duzen{grid-template-columns:1fr}#harita{height:55vh;min-height:300px}#liste{height:auto;max-height:70vh}nav a{margin-left:10px}}
+.olay{background:var(--kart);border:1px solid var(--cizgi);border-radius:8px;padding:12px 16px;margin-bottom:10px}
+.olay h3{margin:6px 0 2px;font-size:16px}.olay p{margin:0}
+.olay-ust{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:13px}
+.rozet{font-weight:600}.rozet-yeni{color:var(--yeni)}.rozet-guncellendi{color:var(--guncel)}.rozet-kapandi{color:var(--kapali)}
+.farklar{margin:6px 0 0;padding-left:18px;font-size:14px}del{color:var(--kapali)}ins{color:var(--yeni);text-decoration:none}
+footer{max-width:1300px;margin:auto;padding:8px 16px 24px;font-size:13px;color:var(--soluk)}
+.leaflet-popup-content{font:13px/1.45 system-ui,sans-serif}

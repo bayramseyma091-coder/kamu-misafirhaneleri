@@ -1,0 +1,14 @@
+{
+ "kaynaklar": {
+  "manuel": {
+   "son_basari": "2026-10-30T08:27:03+00:00",
+   "kayit_sayisi": 661,
+   "hata": null
+  },
+  "meb_dhgm": {
+   "son_hata": "2026-10-30T08:27:03+00:00",
+   "hata": "HTTPSConnectionPool(host='dhgm.meb.gov.tr', port=443): Max retries exceeded with url: /edestek/ogretmenevi/ogretmenevi_liste.aspx (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  }
+ },
+ "son_calisma": "2026-10-30T08:27:03+00:00"
+}
