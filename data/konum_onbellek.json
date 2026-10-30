@@ -79,6 +79,10 @@
 ],
 "Ahlatlıbel Mevkii, Beytepe, Çankaya/ANKARA, Çankaya, Ankara, Türkiye": [],
 "Ahlatlıbel Mevkii, Beytepe/ANKARA, Çankaya, Ankara, Türkiye": [],
+"Akdağmadeni, Yozgat, Türkiye": [
+35.892093,
+39.782147
+],
 "Akhisar, Manisa, Türkiye": [
 27.84019,
 38.924053
@@ -100,9 +104,17 @@
 39.570673,
 41.021628
 ],
+"Akçakale, Şanlıurfa, Türkiye": [
+38.948682,
+36.708295
+],
 "Akçakoca, Düzce, Türkiye": [
 31.123983,
 41.088228
+],
+"Akıncılar, Sivas, Türkiye": [
+38.34684,
+40.078717
 ],
 "Akşehir, Konya, Türkiye": [
 31.420196,
@@ -132,6 +144,10 @@
 38.765185,
 40.319666
 ],
+"Amasra, Bartın, Türkiye": [
+32.386696,
+41.748917
+],
 "Anamur, Mersin, Türkiye": [
 32.831211,
 36.080323
@@ -147,6 +163,10 @@
 ],
 "Anıttepe Kışlası, Çankaya/ANKARA, Çankaya, Ankara, Türkiye": [],
 "Anıttepe Mah. Gençlik Cad. Tuncer Sok. No:21, 06570 Çankaya/ANKARA, Çankaya, Ankara, Türkiye": [],
+"Araklı, Trabzon, Türkiye": [
+40.058041,
+40.935821
+],
 "Arapgir, Malatya, Türkiye": [
 38.489834,
 39.042242
@@ -163,9 +183,17 @@
 40.989418,
 41.191875
 ],
+"Arsin, Trabzon, Türkiye": [
+39.932591,
+40.95373
+],
 "Arsuz, Hatay, Türkiye": [
 35.990524,
 36.419625
+],
+"Artova, Tokat, Türkiye": [
+36.300789,
+40.114067
 ],
 "Arıcak, Elazığ, Türkiye": [
 40.134504,
@@ -194,6 +222,10 @@
 33.322423,
 36.145203
 ],
+"Aydıncık, Yozgat, Türkiye": [
+35.285161,
+40.130252
+],
 "Ayvacık, Çanakkale, Türkiye": [
 26.403131,
 39.601185
@@ -201,6 +233,10 @@
 "Ayvalık, Balıkesir, Türkiye": [
 26.691671,
 39.318096
+],
+"Ağaçören, Aksaray, Türkiye": [
+33.915577,
+38.868972
 ],
 "Ağın, Elazığ, Türkiye": [
 38.713977,
@@ -222,6 +258,10 @@
 "Bahçelievler, İstanbul, Türkiye": [
 28.86577,
 41.00305
+],
+"Bahçesaray, Van, Türkiye": [
+42.807734,
+38.123716
 ],
 "Bala, Ankara, Türkiye": [
 33.123753,
@@ -260,6 +300,10 @@
 40.208291,
 37.917321
 ],
+"Başkale, Van, Türkiye": [
+44.016267,
+38.044911
+],
 "Belen, Hatay, Türkiye": [
 36.194446,
 36.491674
@@ -282,13 +326,29 @@
 31.920455,
 40.165649
 ],
+"Beytüşşebap, Şırnak, Türkiye": [
+43.170219,
+37.570949
+],
 "Beyşehir, Konya, Türkiye": [
 31.722835,
 37.680229
 ],
+"Beşikdüzü, Trabzon, Türkiye": [
+39.228038,
+41.052731
+],
 "Beşiktaş, İstanbul, Türkiye": [
 29.007528,
 41.042847
+],
+"Beşiri, Batman, Türkiye": [
+41.331438,
+37.964311
+],
+"Birecik, Şanlıurfa, Türkiye": [
+37.980027,
+37.031532
 ],
 "Bismil, Diyarbakır, Türkiye": [
 40.661992,
@@ -330,6 +390,10 @@
 30.037278,
 39.90426
 ],
+"Boğazlıyan, Yozgat, Türkiye": [
+35.310834,
+39.236744
+],
 "Bucak, Burdur, Türkiye": [
 30.585539,
 37.456745
@@ -354,6 +418,10 @@
 27.887979,
 39.647392
 ],
+"Büyükşehir, Erzurum, Türkiye": [
+41.261693,
+39.904623
+],
 "Büyükşehir, Eskişehir, Türkiye": [
 38.319131,
 38.348677
@@ -375,9 +443,21 @@
 35.817,
 37.025912
 ],
+"Ceylanpınar, Şanlıurfa, Türkiye": [
+40.05141,
+36.843323
+],
 "Cihanbeyli, Konya, Türkiye": [
 32.92373,
 38.65899
+],
+"Cizre, Şırnak, Türkiye": [
+42.18547,
+37.332437
+],
+"Cumayeri, Düzce, Türkiye": [
+30.950414,
+40.874689
 ],
 "D-100 Karayolu üzeri, Boludağı Mevkii, Yeşilköy Köyü No:49, BOLU (merkeze 17 km), Merkez, Bolu, Türkiye": [],
 "D-400 Karayolu, Akyar Mah. Mevkii, OSMANİYE (27/06/2006 kuruldu, 46.500 m²), Merkez, Osmaniye, Türkiye": [],
@@ -416,6 +496,10 @@
 35.4901,
 38.387929
 ],
+"Devrek, Zonguldak, Türkiye": [
+31.955835,
+41.218882
+],
 "Dicle, Diyarbakır, Türkiye": [
 40.071817,
 38.372813
@@ -423,6 +507,10 @@
 "Didim, Aydın, Türkiye": [
 27.268484,
 37.369687
+],
+"Dikmen, Sinop, Türkiye": [
+35.265057,
+41.651624
 ],
 "Dinar, Afyonkarahisar, Türkiye": [
 30.156205,
@@ -448,6 +536,10 @@
 33.460457,
 42.005597
 ],
+"Doğanşar, Sivas, Türkiye": [
+37.53651,
+40.214232
+],
 "Doğanşehir, Malatya, Türkiye": [
 37.874647,
 38.089293
@@ -455,6 +547,10 @@
 "Dulkadiroğlu, K.Maraş, Türkiye": [
 36.945906,
 37.586161
+],
+"Durağan, Sinop, Türkiye": [
+35.05581,
+41.417967
 ],
 "Dursunbey, Balıkesir, Türkiye": [
 28.652987,
@@ -469,6 +565,14 @@
 36.823983
 ],
 "Döşeme Mah. Erdal Acet Cad., ADANA, , Adana, Türkiye": [],
+"Düziçi, Osmaniye, Türkiye": [
+36.453407,
+37.240122
+],
+"Düzköy, Trabzon, Türkiye": [
+39.426109,
+40.873831
+],
 "Eceabaat, Çanakkale, Türkiye": [],
 "Edremit, Balıkesir, Türkiye": [
 27.015684,
@@ -477,6 +581,10 @@
 "Efeler, Aydın, Türkiye": [
 27.833725,
 37.847175
+],
+"Eflani, Karabük, Türkiye": [
+32.958188,
+41.422944
 ],
 "Ekinözü, K.Maraş, Türkiye": [
 37.189415,
@@ -509,6 +617,10 @@
 ],
 "Emniyet Mahallesi Abant 2 Caddesi No:15, Yenimahalle/ANKARA, Yenimahalle, Ankara, Türkiye": [],
 "Emniyet Mahallesi, Celal Bayar Bulvarı No:77/A, Tandoğan, Yenimahalle/ANKARA, Yenimahalle, Ankara, Türkiye": [],
+"Erbaa, Tokat, Türkiye": [
+36.571506,
+40.672798
+],
 "Erciş, Van, Türkiye": [
 43.359106,
 39.028989
@@ -524,6 +636,10 @@
 "Ereğli, Konya, Türkiye": [
 34.047342,
 37.514072
+],
+"Ereğli, Zonguldak, Türkiye": [
+31.422967,
+41.279552
 ],
 "Ergani, Diyarbakır, Türkiye": [
 39.754879,
@@ -541,6 +657,10 @@
 "Erzurum, Türkiye": [
 41.272771,
 39.90632
+],
+"Eskil, Aksaray, Türkiye": [
+33.412823,
+38.401703
 ],
 "Espiye, Giresun, Türkiye": [
 38.711722,
@@ -570,6 +690,10 @@
 "Eğirdir, Isparta, Türkiye": [
 30.850043,
 37.874434
+],
+"Eşme, Uşak, Türkiye": [
+28.96896,
+38.398376
 ],
 "Fatih, İstanbul, Türkiye": [
 28.94793,
@@ -609,14 +733,26 @@
 26.672254,
 40.405406
 ],
+"Gemerek, Sivas, Türkiye": [
+36.071104,
+39.183122
+],
 "Gemlik, Bursa, Türkiye": [
 29.15707,
 40.430165
 ],
 "Gençlik Cad. No:18, Anıttepe/ANKARA, Çankaya, Ankara, Türkiye": [],
+"Gercüş, Batman, Türkiye": [
+41.385236,
+37.568309
+],
 "Gerger, Adıyaman, Türkiye": [
 39.03332,
 38.029339
+],
+"Gevaş, Van, Türkiye": [
+43.108271,
+38.295286
 ],
 "Göksun, K.Maraş, Türkiye": [
 36.494563,
@@ -633,6 +769,10 @@
 "Gölcük, Kocaeli, Türkiye": [
 29.819588,
 40.716925
+],
+"Gölova, Sivas, Türkiye": [
+38.608431,
+40.061289
 ],
 "Gölpazarı, Bilecik, Türkiye": [
 30.316536,
@@ -675,6 +815,14 @@
 42.025327,
 38.574172
 ],
+"Gürpınar, Van, Türkiye": [
+43.407901,
+38.323265
+],
+"Gürün, Sivas, Türkiye": [
+37.157207,
+38.799008
+],
 "Güvercinlik, Etimesgut/ANKARA, Etimesgut, Ankara, Türkiye": [
 32.738264,
 39.935502
@@ -683,6 +831,10 @@
 "Güzeloba Mah. Lara Cad. No:218, Muratpaşa/ANTALYA, Muratpaşa, Antalya, Türkiye": [],
 "Güzelyalı Mah. 81067 Sokak, Çukurova/ADANA, Çukurova, Adana, Türkiye": [],
 "Güzelyurt Mah. Ürgüp Cad. No:45, NEVŞEHİR (5 katlı bina), Merkez, Nevşehir, Türkiye": [],
+"Güçlükonak, Şırnak, Türkiye": [
+41.911127,
+37.471163
+],
 "Hacıbektaş, Nevşehir, Türkiye": [
 34.6427,
 39.001335
@@ -695,7 +847,15 @@
 42.988203,
 39.609335
 ],
+"Hanak, Ardahan, Türkiye": [
+42.844903,
+41.23677
+],
 "Harbiye Mah. Karşıyaka Sk. No:35, 06460 Çankaya/ANKARA, Çankaya, Ankara, Türkiye": [],
+"Harran, Şanlıurfa, Türkiye": [
+39.025136,
+36.871006
+],
 "Hasköy, Muş, Türkiye": [
 41.688529,
 38.682616
@@ -712,6 +872,10 @@
 "Haymana, Ankara, Türkiye": [
 32.498792,
 39.434135
+],
+"Hayrabolu, Tekirdağ, Türkiye": [
+27.108176,
+41.214671
 ],
 "Hazro, Diyarbakır, Türkiye": [
 40.780853,
@@ -760,6 +924,10 @@
 36.636868,
 37.030679
 ],
+"Kadirli, Osmaniye, Türkiye": [
+36.169409,
+37.46177
+],
 "Kadıköy, İstanbul, Türkiye": [
 29.024563,
 40.991295
@@ -767,6 +935,10 @@
 "Kadınhanı, Konya, Türkiye": [
 32.212206,
 38.24005
+],
+"Kadışehri, Yozgat, Türkiye": [
+35.791756,
+39.997469
 ],
 "Kahramankazan, Ankara, Türkiye": [
 32.681315,
@@ -790,10 +962,18 @@
 30.15233,
 41.070391
 ],
+"Kangal, Sivas, Türkiye": [
+37.450865,
+39.27603
+],
 "Karabaş Mah. Belde Sok. No:3, İzmit/KOCAELİ, İzmit, Kocaeli, Türkiye": [],
 "Karaburun, İzmir, Türkiye": [
 26.509803,
 38.635442
+],
+"Karabük, Karabük, Türkiye": [
+32.623115,
+41.19554
 ],
 "Karacabey, Bursa, Türkiye": [
 28.359059,
@@ -802,6 +982,10 @@
 "Karakoçan, Elazığ, Türkiye": [
 40.038027,
 38.956446
+],
+"Karaköprü, Şanlıurfa, Türkiye": [
+38.795851,
+37.204652
 ],
 "Karamürsel, Kocaeli, Türkiye": [
 29.616586,
@@ -871,6 +1055,10 @@
 38.513856,
 40.915148
 ],
+"Keskin, Kırıkkale, Türkiye": [
+33.615167,
+39.673994
+],
 "Keşan, Edirne, Türkiye": [
 26.630306,
 40.854879
@@ -905,9 +1093,17 @@
 39.865913,
 38.718925
 ],
+"Koyulhisar, Sivas, Türkiye": [
+37.832276,
+40.301321
+],
 "Kozan, Adana, Türkiye": [
 35.816631,
 37.447786
+],
+"Kozluk, Batman, Türkiye": [
+41.48829,
+38.192585
 ],
 "Koçarlı, Aydın, Türkiye": [
 27.707338,
@@ -996,6 +1192,10 @@
 "Malazgirt, Muş, Türkiye": [
 42.540946,
 39.146141
+],
+"Malkara, Tekirdağ, Türkiye": [
+26.90238,
+40.893082
 ],
 "Maltepe Mah. Eski Çırpıcı Çıkmazı Sok. No:6, Zeytinburnu/İSTANBUL, Zeytinburnu, İstanbul, Türkiye": [],
 "Maltepe Mah. Gençlik Cad. No:73, ANKARA, Çankaya, Ankara, Türkiye": [],
@@ -1296,6 +1496,10 @@
 28.883793,
 40.375258
 ],
+"Muradiye, Van, Türkiye": [
+43.761175,
+38.990295
+],
 "Muratpaşa, Antalya, Türkiye": [
 30.720891,
 36.888864
@@ -1325,6 +1529,10 @@
 28.327086,
 37.914061
 ],
+"Niksar, Tokat, Türkiye": [
+36.943493,
+40.591328
+],
 "Nizip, Gaziantep, Türkiye": [
 37.789031,
 37.001184
@@ -1334,6 +1542,10 @@
 37.966147
 ],
 "Odabaşı Mah. Atatürk 10 Bulvarı No:43, Antakya/HATAY, Antakya, Hatay, Türkiye": [],
+"Of, Trabzon, Türkiye": [
+40.269407,
+40.947642
+],
 "Oltu, Erzurum, Türkiye": [
 41.995977,
 40.545941
@@ -1352,6 +1564,10 @@
 40.627026
 ],
 "Ortaköy Muallim Naci Cad. Portakal Yokuşu No:59, Beşiktaş/İSTANBUL, Beşiktaş, İstanbul, Türkiye": [],
+"Ortaköy, Aksaray, Türkiye": [
+34.041219,
+38.736624
+],
 "Osmancık, Çorum, Türkiye": [
 34.801041,
 40.971484
@@ -1363,6 +1579,10 @@
 "Otlukbeli, Erzincan, Türkiye": [
 40.021676,
 39.971948
+],
+"Ovacık, Tunceli, Türkiye": [
+39.214447,
+39.358383
 ],
 "Oğuzeli, Gaziantep, Türkiye": [
 37.508549,
@@ -1409,6 +1629,10 @@
 29.234967,
 40.876872
 ],
+"Pertek, Tunceli, Türkiye": [
+39.327653,
+38.865556
+],
 "Pervari, Siirt, Türkiye": [
 42.547991,
 37.932504
@@ -1420,6 +1644,10 @@
 "Polatlı, Ankara, Türkiye": [
 32.14173,
 39.58567
+],
+"Posof, Ardahan, Türkiye": [
+42.727952,
+41.508378
 ],
 "Prof. Dr. Nusret Fişek Cad. No:41, Kurtuluş-Sıhhıye/ANKARA, Sıhhiye, Ankara, Türkiye": [],
 "Pınarbaşı, Kastamonu, Türkiye": [
@@ -1437,6 +1665,14 @@
 "Reyhanlı, Hatay, Türkiye": [
 36.567231,
 36.268448
+],
+"Reşadiye, Tokat, Türkiye": [
+37.338322,
+40.392069
+],
+"Safranbolu, Karabük, Türkiye": [
+32.692957,
+41.245666
 ],
 "Sahilkent Mah., Erciş İlçe Emniyet Müdürlüğü içinde, Erciş/VAN, Erciş, Van, Türkiye": [],
 "Saimbeyli, Adana, Türkiye": [
@@ -1464,13 +1700,33 @@
 30.273417,
 40.693058
 ],
+"Saray, Van, Türkiye": [
+44.16955,
+38.649354
+],
+"Saraykent, Yozgat, Türkiye": [
+35.510792,
+39.693159
+],
 "Sarıkamış, Kars, Türkiye": [
 42.576944,
 40.33589
 ],
+"Sarıkaya, Yozgat, Türkiye": [
+35.37551,
+39.49359
+],
+"Sarıyahşi, Aksaray, Türkiye": [
+33.845537,
+38.984935
+],
 "Sarıyer, İstanbul, Türkiye": [
 29.057262,
 41.16858
+],
+"Sason, Batman, Türkiye": [
+41.420234,
+38.333947
 ],
 "Savur, Mardin, Türkiye": [
 40.887375,
@@ -1532,6 +1788,10 @@
 38.619433,
 38.029133
 ],
+"Siverek, Şanlıurfa, Türkiye": [
+39.317743,
+37.75409
+],
 "Sivrice, Elazığ, Türkiye": [
 39.306856,
 38.448693
@@ -1544,6 +1804,10 @@
 27.624175,
 39.198719
 ],
+"Sorgun, Yozgat, Türkiye": [
+35.185431,
+39.809868
+],
 "Suluova, Amasya, Türkiye": [
 35.658514,
 40.815001
@@ -1555,6 +1819,14 @@
 "Sur, Diyarbakır, Türkiye": [
 40.23665,
 37.911072
+],
+"Suruç, Şanlıurfa, Türkiye": [
+38.424295,
+36.975185
+],
+"Suşehri, Sivas, Türkiye": [
+38.085566,
+40.162734
 ],
 "Söke, Aydın, Türkiye": [
 27.409805,
@@ -1572,6 +1844,10 @@
 "Süleymanpaşa, Tekirdağ, Türkiye": [
 27.503855,
 40.977173
+],
+"Sürmene, Trabzon, Türkiye": [
+40.113481,
+40.912771
 ],
 "Sıhhiye, Ankara, Türkiye": [
 32.855078,
@@ -1637,6 +1913,10 @@
 38.814631,
 41.007201
 ],
+"Tonya, Trabzon, Türkiye": [
+39.290808,
+40.886348
+],
 "Tortum, Erzurum, Türkiye": [
 41.550825,
 40.297082
@@ -1653,6 +1933,10 @@
 27.707173,
 38.509999
 ],
+"Turhal, Tokat, Türkiye": [
+36.078043,
+40.389589
+],
 "Tut, Adıyaman, Türkiye": [
 37.914949,
 37.794449
@@ -1661,17 +1945,37 @@
 42.77275,
 39.539356
 ],
+"Tuzluca, Iğdır, Türkiye": [
+43.663788,
+40.040216
+],
 "Tuzlukçu, Konya, Türkiye": [
 31.627061,
 38.472923
+],
+"Tuşba, Van, Türkiye": [
+43.375282,
+38.512311
+],
+"Türkeli, Sinop, Türkiye": [
+34.339586,
+41.948301
 ],
 "Ula, Muğla, Türkiye": [
 28.416366,
 37.102923
 ],
+"Uludere, Şırnak, Türkiye": [
+42.933578,
+37.417439
+],
 "Ulukışla, Niğde, Türkiye": [
 34.48036,
 37.545708
+],
+"Ulus, Bartın, Türkiye": [
+32.641022,
+41.583939
 ],
 "Uzundere, Erzurum, Türkiye": [
 41.548334,
@@ -1685,6 +1989,10 @@
 "VERİ BULAMADIM - bu taramada tesis sayfası bulunamadı, Merkez, Isparta, Türkiye": [],
 "VERİ BULAMADIM - kurumsal dosya planında 'Polisevi' listelenmemiş, Merkez, Uşak, Türkiye": [],
 "VERİ BULAMADIM - resmi sayfa 'yapım aşamasında', Merkez, Çankırı, Türkiye": [],
+"Vakfıkebir, Trabzon, Türkiye": [
+39.276191,
+41.047236
+],
 "Varto, Muş, Türkiye": [
 41.454664,
 39.172087
@@ -1692,6 +2000,10 @@
 "Vezirköprü, Samsun, Türkiye": [
 35.460472,
 41.14339
+],
+"Viranşehir, Şanlıurfa, Türkiye": [
+39.762014,
+37.232895
 ],
 "Yahyalı, Kayseri, Türkiye": [
 35.354101,
@@ -1712,6 +2024,10 @@
 ],
 "Yeni Liman, 07130 Konyaaltı/ANTALYA, Konyaaltı, Antalya, Türkiye": [],
 "Yenice Mah. Kaplıca Sk. No:10, Kızılcahamam/ANKARA, Kızılcahamam, Ankara, Türkiye": [],
+"Yenifakılı, Yozgat, Türkiye": [
+35.002441,
+39.212775
+],
 "Yenimahalle, Ankara, Türkiye": [
 32.808779,
 39.966106
@@ -1732,6 +2048,10 @@
 34.592449,
 36.782277
 ],
+"Yerköy, Yozgat, Türkiye": [
+34.465736,
+39.687101
+],
 "Yunak, Konya, Türkiye": [
 32.013959,
 38.818004
@@ -1749,10 +2069,30 @@
 44.28217,
 37.571769
 ],
+"Yıldızeli, Sivas, Türkiye": [
+36.593311,
+39.867186
+],
+"Yığılca, Düzce, Türkiye": [
+31.444668,
+40.959995
+],
 "Zafer Mah. Erzurum Cad. No:120, MUŞ (İl Emniyet Müdürlüğü kompleksi), Merkez, Muş, Türkiye": [],
+"Zara, Sivas, Türkiye": [
+37.759073,
+39.897201
+],
 "Zeytinburnu, İstanbul, Türkiye": [
 28.903747,
 40.989865
+],
+"Zile, Tokat, Türkiye": [
+35.931406,
+40.281462
+],
+"Çaldıran, Van, Türkiye": [
+43.902938,
+39.13552
 ],
 "Çalılöz Mah. (04.12.2003'ten beri hizmette, tam sokak no. yayınlı değil), KIRIKKALE, Merkez, Kırıkkale, Türkiye": [],
 "Çamardı, Niğde, Türkiye": [
@@ -1783,9 +2123,17 @@
 36.72702,
 41.198291
 ],
+"Çarşıbaşı, Trabzon, Türkiye": [
+39.378486,
+41.082581
+],
 "Çat, Erzurum, Türkiye": [
 40.977421,
 39.611949
+],
+"Çatak, Van, Türkiye": [
+43.059198,
+38.006907
 ],
 "Çatalca, İstanbul, Türkiye": [
 28.460515,
@@ -1799,9 +2147,21 @@
 37.098661,
 41.017194
 ],
+"Çaycuma, Zonguldak, Türkiye": [
+32.095344,
+41.424188
+],
 "Çayeli, Rize, Türkiye": [
 40.723697,
 41.087833
+],
+"Çaykara, Trabzon, Türkiye": [
+40.242043,
+40.747855
+],
+"Çayıralan, Yozgat, Türkiye": [
+35.646372,
+39.304801
 ],
 "Çayırlı, Erzincan, Türkiye": [
 40.037184,
@@ -1810,6 +2170,10 @@
 "Çağlayancerit, K.Maraş, Türkiye": [
 37.292785,
 37.749966
+],
+"Çekerek, Yozgat, Türkiye": [
+35.50725,
+40.064957
 ],
 "Çelikhan, Adıyaman, Türkiye": [
 38.242389,
@@ -1859,6 +2223,10 @@
 40.953883,
 37.402127
 ],
+"Özalp, Van, Türkiye": [
+43.989727,
+38.653352
+],
 "Özel Harekat Şb.Md. Karşısı, Erzurum Yolu Üzeri, AĞRI-Merkez, Merkez, Ağrı, Türkiye": [],
 "Ünye, Ordu, Türkiye": [
 37.285362,
@@ -1875,6 +2243,10 @@
 "Üzümlü, Erzincan, Türkiye": [
 39.701031,
 39.710115
+],
+"İdil, Şırnak, Türkiye": [
+41.892403,
+37.340186
 ],
 "İkizdere, Rize, Türkiye": [
 40.559574,
@@ -1949,6 +2321,10 @@
 31.366093,
 38.080712
 ],
+"Şarkışla, Sivas, Türkiye": [
+36.403158,
+39.364093
+],
 "Şavşat, Artvin, Türkiye": [
 42.356886,
 41.252488
@@ -1956,6 +2332,10 @@
 "Şebinkarahisar, Giresun, Türkiye": [
 38.423612,
 40.288601
+],
+"Şefaatli, Yozgat, Türkiye": [
+34.74969,
+39.498544
 ],
 "Şemdinli, Hakkari, Türkiye": [
 44.572508,

@@ -630,7 +630,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.915577,
+     38.868972
+    ]
+   },
    "properties": {
     "tesisId": "KM-66ADA6B5A6",
     "tesisAdi": "Ağaçören Öğretmenevi ve Akşam Sanat Okulu",
@@ -644,12 +650,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.412823,
+     38.401703
+    ]
+   },
    "properties": {
     "tesisId": "KM-CAED23BC66",
     "tesisAdi": "Eskil Öğretmenevi ve Akşam Sanat Okulu",
@@ -663,7 +675,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -718,7 +730,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.041219,
+     38.736624
+    ]
+   },
    "properties": {
     "tesisId": "KM-3B741DE8F3",
     "tesisAdi": "Ortaköy Öğretmenevi ve Akşam Sanat Okulu",
@@ -732,12 +750,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.845537,
+     38.984935
+    ]
+   },
    "properties": {
     "tesisId": "KM-283DF24404",
     "tesisAdi": "Sarıyahşi Öğretmenevi ve Akşam Sanat Okulu",
@@ -751,7 +775,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -2106,7 +2130,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     42.844903,
+     41.23677
+    ]
+   },
    "properties": {
     "tesisId": "KM-460DEFBF88",
     "tesisAdi": "Hanak Öğretmenevi ve Akşam Sanat Okulu",
@@ -2120,7 +2150,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -2175,7 +2205,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     42.727952,
+     41.508378
+    ]
+   },
    "properties": {
     "tesisId": "KM-574B18A452",
     "tesisAdi": "Posof Öğretmenevi ve Akşam Sanat Okulu",
@@ -2189,7 +2225,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -3119,7 +3155,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.386696,
+     41.748917
+    ]
+   },
    "properties": {
     "tesisId": "KM-BC1F4F318A",
     "tesisAdi": "AmasraÖğretmenevi ve Akşam Sanat Okulu",
@@ -3133,7 +3175,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -3188,7 +3230,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.641022,
+     41.583939
+    ]
+   },
    "properties": {
     "tesisId": "KM-770E094B31",
     "tesisAdi": "Ulus Öğretmenevi ve Akşam Sanat Okulu",
@@ -3202,12 +3250,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.331438,
+     37.964311
+    ]
+   },
    "properties": {
     "tesisId": "KM-4B6AB47BC9",
     "tesisAdi": "Beşiri Öğretmenevi ve Akşam Sanat Okulu",
@@ -3221,12 +3275,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.385236,
+     37.568309
+    ]
+   },
    "properties": {
     "tesisId": "KM-54859F5AC1",
     "tesisAdi": "Gercüş Öğretmenevi ve Akşam Sanat Okulu",
@@ -3240,12 +3300,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.48829,
+     38.192585
+    ]
+   },
    "properties": {
     "tesisId": "KM-F676B8EB4F",
     "tesisAdi": "Kozluk Öğretmenevi ve Akşam Sanat Okulu",
@@ -3259,7 +3325,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -3314,7 +3380,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.420234,
+     38.333947
+    ]
+   },
    "properties": {
     "tesisId": "KM-7A70A4C527",
     "tesisAdi": "Sason Öğretmenevi ve Akşam Sanat Okulu",
@@ -3328,7 +3400,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -4783,7 +4855,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.950414,
+     40.874689
+    ]
+   },
    "properties": {
     "tesisId": "KM-0E89172BA6",
     "tesisAdi": "Cumayeri Pakmaya Öğretmenevi ve Akşam Sanat Okulu",
@@ -4797,7 +4875,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -4852,7 +4930,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.444668,
+     40.959995
+    ]
+   },
    "properties": {
     "tesisId": "KM-73F0FD9EC9",
     "tesisAdi": "Yığılca Öğretmenevi ve Akşam Sanat Okulu",
@@ -4866,7 +4950,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -5424,8 +5508,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     41.272771,
-     39.90632
+     41.261693,
+     39.904623
     ]
    },
    "properties": {
@@ -5441,7 +5525,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "il"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -7246,7 +7330,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.663788,
+     40.040216
+    ]
+   },
    "properties": {
     "tesisId": "KM-8ABD80D3C3",
     "tesisAdi": "Tuzluca Öğretmenevi ve Akşam Sanat Okulu",
@@ -7260,7 +7350,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -7490,7 +7580,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.958188,
+     41.422944
+    ]
+   },
    "properties": {
     "tesisId": "KM-989BDFB2C0",
     "tesisAdi": "Eflani Öğretmenevi ve Akşam Sanat Okulu",
@@ -7504,12 +7600,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.623115,
+     41.19554
+    ]
+   },
    "properties": {
     "tesisId": "KM-4BB7EE8F0E",
     "tesisAdi": "Merkez Öğretmenevi ve Akşam Sanat Okulu",
@@ -7523,7 +7625,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -7553,7 +7655,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.692957,
+     41.245666
+    ]
+   },
    "properties": {
     "tesisId": "KM-0A42441918",
     "tesisAdi": "Safranbolu Öğretmenevi ve Akşam Sanat Okulu",
@@ -7567,7 +7675,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -8550,8 +8658,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     32.492438,
-     37.872734
+     32.488073,
+     37.946107
     ]
    },
    "properties": {
@@ -8567,7 +8675,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "il"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -9247,7 +9355,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     33.615167,
+     39.673994
+    ]
+   },
    "properties": {
     "tesisId": "KM-478693AE64",
     "tesisAdi": "Şehit Pilot Komiser Gökhun Mete Altunbaş Öğretmenevi ve Akşam Sanat Okulu",
@@ -9261,7 +9375,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -11216,7 +11330,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.453407,
+     37.240122
+    ]
+   },
    "properties": {
     "tesisId": "KM-3AF16BF704",
     "tesisAdi": "Düziçi Öğretmenevi ve Akşam Sanat Okulu",
@@ -11230,12 +11350,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.169409,
+     37.46177
+    ]
+   },
    "properties": {
     "tesisId": "KM-BFF194AB72",
     "tesisAdi": "Kadirli Öğretmenevi ve Akşam Sanat Okulu",
@@ -11249,7 +11375,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -12304,7 +12430,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.265057,
+     41.651624
+    ]
+   },
    "properties": {
     "tesisId": "KM-8468DCF76F",
     "tesisAdi": "Dikmen Öğretmenevi ve Akşam Sanat Okulu",
@@ -12318,12 +12450,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.05581,
+     41.417967
+    ]
+   },
    "properties": {
     "tesisId": "KM-5F69DB6518",
     "tesisAdi": "Durağan Öğretmenevi ve Akşam Sanat Okulu",
@@ -12337,7 +12475,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -12392,7 +12530,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.339586,
+     41.948301
+    ]
+   },
    "properties": {
     "tesisId": "KM-8F98F02E5E",
     "tesisAdi": "Türkeli Öğretmenevi ve Akşam Sanat Okulu",
@@ -12406,12 +12550,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.34684,
+     40.078717
+    ]
+   },
    "properties": {
     "tesisId": "KM-BFB64B7A4D",
     "tesisAdi": "Akıncılar Öğretmenevi ve Akşam Sanat Okulu",
@@ -12425,12 +12575,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.53651,
+     40.214232
+    ]
+   },
    "properties": {
     "tesisId": "KM-E4D7F26696",
     "tesisAdi": "Doğanşar Öğretmenevi ve Akşam Sanat Okulu",
@@ -12444,12 +12600,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.071104,
+     39.183122
+    ]
+   },
    "properties": {
     "tesisId": "KM-73041618A0",
     "tesisAdi": "Gemerek Sabancı Öğretmenevi ve Akşam Sanat Okulu",
@@ -12463,12 +12625,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.608431,
+     40.061289
+    ]
+   },
    "properties": {
     "tesisId": "KM-F10AFED128",
     "tesisAdi": "Gölova Selahattin Ayan Öğretmenevi ve Akşam Sanat Okulu",
@@ -12482,12 +12650,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.157207,
+     38.799008
+    ]
+   },
    "properties": {
     "tesisId": "KM-E096C66143",
     "tesisAdi": "Gürün Öğretmenevi ve Akşam Sanat Okulu",
@@ -12501,12 +12675,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.450865,
+     39.27603
+    ]
+   },
    "properties": {
     "tesisId": "KM-1DB861B806",
     "tesisAdi": "Kangal Öğretmenevi ve Akşam Sanat Okulu",
@@ -12520,12 +12700,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.832276,
+     40.301321
+    ]
+   },
    "properties": {
     "tesisId": "KM-E0B56DD0CA",
     "tesisAdi": "Koyulhisar Öğretmenevi ve Akşam Sanat Okulu",
@@ -12539,7 +12725,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -12619,7 +12805,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.085566,
+     40.162734
+    ]
+   },
    "properties": {
     "tesisId": "KM-5472D6EE6E",
     "tesisAdi": "Suşehri Öğretmenevi ve Akşam Sanat Okulu",
@@ -12633,12 +12825,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.593311,
+     39.867186
+    ]
+   },
    "properties": {
     "tesisId": "KM-ED56D9D826",
     "tesisAdi": "Yıldızeli Ahmet Remzi Küçükoran Öğretmenevi ve Akşam Sanat Okulu",
@@ -12652,12 +12850,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.759073,
+     39.897201
+    ]
+   },
    "properties": {
     "tesisId": "KM-00E7297C2F",
     "tesisAdi": "Zara Mehmet Habib Soluk Öğretmenevi ve Akşam Sanat Okulu",
@@ -12671,12 +12875,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.403158,
+     39.364093
+    ]
+   },
    "properties": {
     "tesisId": "KM-C9794245EA",
     "tesisAdi": "ŞarkışlaÖğretmenevi ve Akşam Sanat Okulu",
@@ -12690,12 +12900,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.108176,
+     41.214671
+    ]
+   },
    "properties": {
     "tesisId": "KM-63D3D753E2",
     "tesisAdi": "Hayrabolu Sadi Kıyak Öğretmenevi ve Akşam Sanat Okulu",
@@ -12709,12 +12925,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.90238,
+     40.893082
+    ]
+   },
    "properties": {
     "tesisId": "KM-800C56C77F",
     "tesisAdi": "Malkara Öğretmenevi ve Akşam Sanat Okulu",
@@ -12728,7 +12950,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -12808,7 +13030,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.300789,
+     40.114067
+    ]
+   },
    "properties": {
     "tesisId": "KM-E8A8832D8E",
     "tesisAdi": "Artova Öğretmenevi ve Akşam Sanat Okulu",
@@ -12822,12 +13050,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.571506,
+     40.672798
+    ]
+   },
    "properties": {
     "tesisId": "KM-6B3F943FF6",
     "tesisAdi": "Erbaa Öğretmenevi ve Akşam Sanat Okulu",
@@ -12841,7 +13075,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -12871,7 +13105,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.943493,
+     40.591328
+    ]
+   },
    "properties": {
     "tesisId": "KM-3D62AB5781",
     "tesisAdi": "Niksar Öğretmenevi ve Akşam Sanat Okulu",
@@ -12885,12 +13125,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.338322,
+     40.392069
+    ]
+   },
    "properties": {
     "tesisId": "KM-899D6CFADE",
     "tesisAdi": "Reşadiye Öğretmenevi ve Akşam Sanat Okulu",
@@ -12904,12 +13150,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     36.078043,
+     40.389589
+    ]
+   },
    "properties": {
     "tesisId": "KM-E8BFE8F4B2",
     "tesisAdi": "Turhal Öğretmenevi ve Akşam Sanat Okulu",
@@ -12923,12 +13175,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.931406,
+     40.281462
+    ]
+   },
    "properties": {
     "tesisId": "KM-5DE213F56E",
     "tesisAdi": "Zile Dinçerler Öğretmenevi ve Akşam Sanat Okulu",
@@ -12942,7 +13200,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -12997,7 +13255,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.058041,
+     40.935821
+    ]
+   },
    "properties": {
     "tesisId": "KM-529CA8ED12",
     "tesisAdi": "Araklı Öğretmenevi ve Akşam Sanat Okulu",
@@ -13011,12 +13275,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.932591,
+     40.95373
+    ]
+   },
    "properties": {
     "tesisId": "KM-9B06E63421",
     "tesisAdi": "Arsin Öğretmenevi ve Akşam Sanat Okulu",
@@ -13030,12 +13300,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.228038,
+     41.052731
+    ]
+   },
    "properties": {
     "tesisId": "KM-220507DA40",
     "tesisAdi": "Beşikdüzü Sabancı Öğretmenevi ve Akşam Sanat Okulu",
@@ -13049,12 +13325,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.426109,
+     40.873831
+    ]
+   },
    "properties": {
     "tesisId": "KM-A959E5098D",
     "tesisAdi": "Düzköy Lütfü Ofluoğlu Öğretmenevi ve Akşam Sanat Okulu",
@@ -13068,7 +13350,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -13123,7 +13405,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.269407,
+     40.947642
+    ]
+   },
    "properties": {
     "tesisId": "KM-06578E379F",
     "tesisAdi": "Of Öğretmenevi ve Akşam Sanat Okulu",
@@ -13137,12 +13425,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.113481,
+     40.912771
+    ]
+   },
    "properties": {
     "tesisId": "KM-2C06421A25",
     "tesisAdi": "Sürmene İnci Hamitcan Aksoy Öğretmenevi ve Akşam Sanat Okulu",
@@ -13156,12 +13450,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.290808,
+     40.886348
+    ]
+   },
    "properties": {
     "tesisId": "KM-E6030F93AC",
     "tesisAdi": "Tonya Öğretmenevi ve Akşam Sanat Okulu",
@@ -13175,12 +13475,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.276191,
+     41.047236
+    ]
+   },
    "properties": {
     "tesisId": "KM-5ED2DB4144",
     "tesisAdi": "Vakfıkebir Öğretmenevi ve Akşam Sanat Okulu",
@@ -13194,12 +13500,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.378486,
+     41.082581
+    ]
+   },
    "properties": {
     "tesisId": "KM-14D7DDFEB7",
     "tesisAdi": "Çarşıbaşı Öğretmenevi ve Akşam Sanat Okulu",
@@ -13213,12 +13525,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.242043,
+     40.747855
+    ]
+   },
    "properties": {
     "tesisId": "KM-8F3953ACD1",
     "tesisAdi": "Çaykara Öğretmenevi ve Akşam Sanat Okulu",
@@ -13232,7 +13550,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -13287,7 +13605,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.214447,
+     39.358383
+    ]
+   },
    "properties": {
     "tesisId": "KM-464E2D37D4",
     "tesisAdi": "Ovacık Öğretmenevi ve Akşam Sanat Okulu",
@@ -13301,12 +13625,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.327653,
+     38.865556
+    ]
+   },
    "properties": {
     "tesisId": "KM-28BE0CB73C",
     "tesisAdi": "Pertek Öğretmenevi ve Akşam Sanat Okulu",
@@ -13320,12 +13650,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.96896,
+     38.398376
+    ]
+   },
    "properties": {
     "tesisId": "KM-E878D9AC8B",
     "tesisAdi": "Eşme Sabancı Öğretmenevi ve Akşam Sanat Okulu",
@@ -13339,7 +13675,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -13394,7 +13730,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     42.807734,
+     38.123716
+    ]
+   },
    "properties": {
     "tesisId": "KM-C4630B93B4",
     "tesisAdi": "Bahçesaray Öğretmenevi ve Akşam Sanat Okulu",
@@ -13408,12 +13750,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     44.016267,
+     38.044911
+    ]
+   },
    "properties": {
     "tesisId": "KM-134A140C50",
     "tesisAdi": "Başkale Öğretmenevi ve Akşam Sanat Okulu",
@@ -13427,7 +13775,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -13482,7 +13830,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.108271,
+     38.295286
+    ]
+   },
    "properties": {
     "tesisId": "KM-2C47F578EA",
     "tesisAdi": "Gevaş Öğretmenevi ve Akşam Sanat Okulu",
@@ -13496,12 +13850,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.407901,
+     38.323265
+    ]
+   },
    "properties": {
     "tesisId": "KM-3F98ED4120",
     "tesisAdi": "Gürpınar Öğretmenevi ve Akşam Sanat Okulu",
@@ -13515,12 +13875,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.761175,
+     38.990295
+    ]
+   },
    "properties": {
     "tesisId": "KM-BBAB62CB10",
     "tesisAdi": "Muradiye Öğretmenevi ve Akşam Sanat Okulu",
@@ -13534,12 +13900,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     44.16955,
+     38.649354
+    ]
+   },
    "properties": {
     "tesisId": "KM-5FBFAE8B22",
     "tesisAdi": "Saray Öğretmenevi ve Akşam Sanat Okulu",
@@ -13553,12 +13925,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.375282,
+     38.512311
+    ]
+   },
    "properties": {
     "tesisId": "KM-8EBA0ACADB",
     "tesisAdi": "İskele Öğretmenevi ve Akşam Sanat Okulu",
@@ -13572,12 +13950,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.902938,
+     39.13552
+    ]
+   },
    "properties": {
     "tesisId": "KM-0D2D176A05",
     "tesisAdi": "Çaldıran Öğretmenevi ve Akşam Sanat Okulu",
@@ -13591,12 +13975,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.059198,
+     38.006907
+    ]
+   },
    "properties": {
     "tesisId": "KM-A16F29837E",
     "tesisAdi": "Çatak Öğretmenevi ve Akşam Sanat Okulu",
@@ -13610,12 +14000,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.989727,
+     38.653352
+    ]
+   },
    "properties": {
     "tesisId": "KM-1ADFFBB288",
     "tesisAdi": "ÖzalpÖğretmenevi ve Akşam Sanat Okulu",
@@ -13629,7 +14025,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -13734,7 +14130,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.892093,
+     39.782147
+    ]
+   },
    "properties": {
     "tesisId": "KM-989E5EEEA4",
     "tesisAdi": "Akdağmadeni Öğretmenevi ve Akşam Sanat Okulu",
@@ -13748,12 +14150,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.285161,
+     40.130252
+    ]
+   },
    "properties": {
     "tesisId": "KM-EE2A687F59",
     "tesisAdi": "75. Yıl Aydıncık Öğretmenevi ve Akşam Sanat Okulu",
@@ -13767,12 +14175,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.310834,
+     39.236744
+    ]
+   },
    "properties": {
     "tesisId": "KM-6FC16C8696",
     "tesisAdi": "Boğazlıyan Öğretmenevi ve Akşam Sanat Okulu",
@@ -13786,12 +14200,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.791756,
+     39.997469
+    ]
+   },
    "properties": {
     "tesisId": "KM-53FF1F9ACF",
     "tesisAdi": "KadışehriÖğretmenevi ve Akşam Sanat Okulu",
@@ -13805,7 +14225,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -13860,7 +14280,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.510792,
+     39.693159
+    ]
+   },
    "properties": {
     "tesisId": "KM-C66A8B1362",
     "tesisAdi": "Saraykent Öğretmenevi ve Akşam Sanat Okulu",
@@ -13874,12 +14300,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.37551,
+     39.49359
+    ]
+   },
    "properties": {
     "tesisId": "KM-B04F2574EB",
     "tesisAdi": "Sarıkaya Öğretmenevi ve Akşam Sanat Okulu",
@@ -13893,12 +14325,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.185431,
+     39.809868
+    ]
+   },
    "properties": {
     "tesisId": "KM-A8ACA508D2",
     "tesisAdi": "Sorgun Öğretmenevi ve Akşam Sanat Okulu",
@@ -13912,12 +14350,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.002441,
+     39.212775
+    ]
+   },
    "properties": {
     "tesisId": "KM-8F7ACFDBCC",
     "tesisAdi": "Yenifakılı Öğretmenevi ve Akşam Sanat Okulu",
@@ -13931,12 +14375,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.465736,
+     39.687101
+    ]
+   },
    "properties": {
     "tesisId": "KM-973DD7DEEC",
     "tesisAdi": "Yerköy Öğretmenevi ve Akşam Sanat Okulu",
@@ -13950,12 +14400,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.646372,
+     39.304801
+    ]
+   },
    "properties": {
     "tesisId": "KM-77C1DC5F15",
     "tesisAdi": "Çayıralan Öğretmenevi ve Akşam Sanat Okulu",
@@ -13969,12 +14425,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.50725,
+     40.064957
+    ]
+   },
    "properties": {
     "tesisId": "KM-3E8AA51D45",
     "tesisAdi": "Çekerek Öğretmenevi ve Akşam Sanat Okulu",
@@ -13988,12 +14450,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.74969,
+     39.498544
+    ]
+   },
    "properties": {
     "tesisId": "KM-E01800AAB8",
     "tesisAdi": "Şefaatli Öğretmenevi ve Akşam Sanat Okulu",
@@ -14007,12 +14475,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.955835,
+     41.218882
+    ]
+   },
    "properties": {
     "tesisId": "KM-8A54E93E0F",
     "tesisAdi": "Devrek Öğretmenevi ve Akşam Sanat Okulu",
@@ -14026,12 +14500,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.422967,
+     41.279552
+    ]
+   },
    "properties": {
     "tesisId": "KM-273A97FF1C",
     "tesisAdi": "Ereğli Öğretmenevi ve Akşam Sanat Okulu",
@@ -14045,7 +14525,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -14100,7 +14580,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.095344,
+     41.424188
+    ]
+   },
    "properties": {
     "tesisId": "KM-34F2F54CA0",
     "tesisAdi": "Çaycuma-Öğretmen Evi ve Akşam Sanat Okulu",
@@ -14114,7 +14600,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -15569,7 +16055,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.948682,
+     36.708295
+    ]
+   },
    "properties": {
     "tesisId": "KM-564E200C38",
     "tesisAdi": "Akçakale Öğretmenevi ve Akşam Sanat Okulu",
@@ -15583,12 +16075,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.980027,
+     37.031532
+    ]
+   },
    "properties": {
     "tesisId": "KM-3FD5429E5F",
     "tesisAdi": "Birecik Öğretmenevi ve Akşam Sanat Okulu",
@@ -15602,12 +16100,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     40.05141,
+     36.843323
+    ]
+   },
    "properties": {
     "tesisId": "KM-0D13ADAEF8",
     "tesisAdi": "Ceylanpınar Öğretmenevi ve Akşam Sanat Okulu",
@@ -15621,7 +16125,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -15651,7 +16155,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.025136,
+     36.871006
+    ]
+   },
    "properties": {
     "tesisId": "KM-6167A9A099",
     "tesisAdi": "Harran Öğretmenevi ve Akşam Sanat Okulu",
@@ -15665,12 +16175,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.795851,
+     37.204652
+    ]
+   },
    "properties": {
     "tesisId": "KM-152A1F029B",
     "tesisAdi": "Karaköprü Onikilier Öğretmenevi ve Akşam Sanat Okulu",
@@ -15684,7 +16200,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -15739,7 +16255,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.317743,
+     37.75409
+    ]
+   },
    "properties": {
     "tesisId": "KM-B99EB8B5C2",
     "tesisAdi": "Siverek Öğretmenevi ve Akşam Sanat Okulu",
@@ -15753,12 +16275,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.424295,
+     36.975185
+    ]
+   },
    "properties": {
     "tesisId": "KM-B0B39A508D",
     "tesisAdi": "Suruç Öğretmenevi ve Akşam Sanat Okulu",
@@ -15772,12 +16300,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.762014,
+     37.232895
+    ]
+   },
    "properties": {
     "tesisId": "KM-331D629871",
     "tesisAdi": "Viranşehir Öğretmenevi ve Akşam Sanat Okulu",
@@ -15791,12 +16325,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     43.170219,
+     37.570949
+    ]
+   },
    "properties": {
     "tesisId": "KM-816D7EA1D6",
     "tesisAdi": "Beytüşşebap Öğretmenevi ve Akşam Sanat Okulu",
@@ -15810,12 +16350,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     42.18547,
+     37.332437
+    ]
+   },
    "properties": {
     "tesisId": "KM-3D3DDC28A5",
     "tesisAdi": "Cizre Öğretmenevi ve Akşam Sanat Okulu",
@@ -15829,12 +16375,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.911127,
+     37.471163
+    ]
+   },
    "properties": {
     "tesisId": "KM-062B020A97",
     "tesisAdi": "Güçlükonak Öğretmenevi ve Akşam Sanat Okulu",
@@ -15848,7 +16400,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
@@ -15953,7 +16505,13 @@
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     42.933578,
+     37.417439
+    ]
+   },
    "properties": {
     "tesisId": "KM-0158DAA555",
     "tesisAdi": "Uludere Öğretmenevi ve Akşam Sanat Okulu",
@@ -15967,12 +16525,18 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   },
   {
    "type": "Feature",
-   "geometry": null,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     41.892403,
+     37.340186
+    ]
+   },
    "properties": {
     "tesisId": "KM-254645885E",
     "tesisAdi": "İdil Öğretmenevi ve Akşam Sanat Okulu",
@@ -15986,7 +16550,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "yok"
+    "konumKaynagi": "ilce"
    }
   }
  ]
