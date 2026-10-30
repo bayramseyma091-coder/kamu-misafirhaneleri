@@ -43,6 +43,8 @@ def _sutun_esle(basliklar):
 def _tablolari_ayristir(soup, varsayilan_il=""):
     sonuc = []
     for tablo in soup.find_all("table"):
+        if tablo.find("table"):
+            continue  # dış çerçeve tablosu; satırları iç tablodan okunur
         satirlar = tablo.find_all("tr")
         if len(satirlar) < 2:
             continue

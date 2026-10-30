@@ -5,37 +5,90 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Kamu Misafirhaneleri</title>
 <meta name="description" content="Türkiye'deki kamu misafirhaneleri, öğretmenevleri ve sosyal tesisleri: harita, liste ve güncel değişiklikler.">
+<meta name="theme-color" content="#0b2a45">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f5c78'/%3E%3Cpath d='M8 23V14l8-6 8 6v9h-5v-5h-6v5z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="alternate" type="application/rss+xml" title="Değişiklikler" href="rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
 <link rel="stylesheet" href="stil.css">
 </head>
 <body>
-<header><div class="ic">
-  <h1>Kamu Misafirhaneleri</h1>
-  <nav><a href="./">Harita</a><a href="degisiklikler.html">Değişiklikler</a><a href="rss.xml">RSS</a><a href="#veri">Veri</a></nav>
-</div></header>
-<main>
-  <div class="ozet">
-    <div><b id="s-toplam">–</b><span class="soluk">tesis</span></div>
-    <div><b id="s-il">–</b><span class="soluk">il</span></div>
-    <div><b id="s-gorunen">–</b><span class="soluk">filtrede</span></div>
-    <div><b id="s-guncel">–</b><span class="soluk">son güncelleme</span></div>
+<header class="ust">
+  <div class="kap menu">
+    <a class="logo" href="./">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="rgba(255,255,255,.16)"/><path d="M8 23V14l8-6 8 6v9h-5v-5h-6v5z" fill="#fff"/></svg>
+      Kamu Misafirhaneleri
+    </a>
+    <nav><a href="./" aria-current="page">Harita</a><a href="degisiklikler.html">Değişiklikler</a><a href="rss.xml">RSS</a><a href="#veri">Açık veri</a></nav>
   </div>
-  <div class="filtre">
-    <input id="f-ara" type="search" placeholder="Ad, ilçe veya adres ara…" aria-label="Ara">
-    <select id="f-bakanlik" aria-label="Bakanlık"><option value="">Tüm bakanlıklar</option></select>
-    <select id="f-il" aria-label="İl"><option value="">Tüm iller</option></select>
+  <div class="kap hero">
+    <h1>Türkiye'deki kamu misafirhaneleri, tek haritada</h1>
+    <p>Öğretmenevleri, polis evleri, orduevleri ve diğer kamu sosyal tesisleri. Resmî kaynaklardan her gün otomatik güncellenir.</p>
   </div>
-  <div class="duzen"><div id="harita"></div><div id="liste" aria-live="polite"></div></div>
+</header>
+
+<main class="kap">
+  <section class="panel" aria-label="Arama ve filtre">
+    <div class="arama">
+      <label>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="f-ara" type="search" placeholder="Tesis adı, ilçe veya adres ara…" aria-label="Ara" autocomplete="off">
+      </label>
+      <select id="f-il" aria-label="İl"><option value="">Tüm iller</option></select>
+    </div>
+    <div class="cipler" id="f-bakanlik" role="group" aria-label="Bakanlık"></div>
+  </section>
+
+  <section class="istat" aria-label="Özet">
+    <div><b id="s-toplam">–</b><span>tesis</span></div>
+    <div><b id="s-il">–</b><span>il</span></div>
+    <div><b id="s-gorunen">–</b><span>filtreye uyan</span></div>
+    <div><b id="s-guncel">–</b><span>son güncelleme</span></div>
+  </section>
+
+  <div class="sekme" role="tablist">
+    <button role="tab" aria-selected="true" data-gorunum="harita">Harita</button>
+    <button role="tab" aria-selected="false" data-gorunum="liste">Liste</button>
+  </div>
+  <div class="duzen" id="duzen" data-gorunum="harita">
+    <div class="harita-kap"><div id="harita" role="region" aria-label="Harita"></div></div>
+    <div class="liste-kap">
+      <div class="liste-ust"><span id="liste-sayi"></span><span>A → Z, ile göre</span></div>
+      <div id="liste" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <section class="bolum" aria-labelledby="son-baslik">
+    <div class="bolum-baslik">
+      <h2 id="son-baslik">Son değişiklikler</h2>
+      <a href="degisiklikler.html">Tümünü gör →</a>
+    </div>
+    <div id="son-olaylar" class="zaman"></div>
+  </section>
 </main>
-<footer id="veri">
-  Veriler resmî kurum sitelerinden otomatik derlenir ve hata içerebilir; rezervasyon öncesi tesisi arayarak teyit edin.
-  Konumlar adres/ilçe merkezine göre yaklaşıktır. ·
-  İndir: <a href="misafirhaneler.geojson">GeoJSON</a> · <a href="misafirhaneler.csv">CSV</a> · <a href="metadata.xml">ISO 19139 üst veri</a> ·
-  Harita © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıcıları
+
+<footer class="alt-bilgi" id="veri">
+  <div class="kap">
+    <div>
+      <h4>Bu veriler hakkında</h4>
+      <p>Bilgiler resmî kurum sitelerinden otomatik derlenir ve hata içerebilir. Rezervasyondan önce tesisi arayarak teyit edin.</p>
+      <p>Haritadaki konumlar çoğunlukla ilçe merkezine göre yaklaşıktır. Harita altlığı © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıcıları, © <a href="https://carto.com/attributions">CARTO</a>.</p>
+    </div>
+    <div>
+      <h4>Açık veri</h4>
+      <ul>
+        <li><a href="misafirhaneler.geojson">GeoJSON (EPSG:4326)</a></li>
+        <li><a href="misafirhaneler.csv">CSV (Excel)</a></li>
+        <li><a href="metadata.xml">ISO 19139 üst veri</a></li>
+        <li><a href="rss.xml">RSS değişiklik akışı</a></li>
+      </ul>
+    </div>
+  </div>
 </footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
 <script src="uygulama.js"></script>

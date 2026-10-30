@@ -4,17 +4,29 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Değişiklikler – Kamu Misafirhaneleri</title>
+<meta name="theme-color" content="#0b2a45">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f5c78'/%3E%3Cpath d='M8 23V14l8-6 8 6v9h-5v-5h-6v5z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="alternate" type="application/rss+xml" title="Değişiklikler" href="rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="stil.css">
 </head>
 <body>
-<header><div class="ic">
-  <h1>Kamu Misafirhaneleri</h1>
-  <nav><a href="./">Harita</a><a href="degisiklikler.html">Değişiklikler</a><a href="rss.xml">RSS</a></nav>
-</div></header>
-<main>
-  <h2>Son değişiklikler</h2>
-  <p class="soluk">Yeni açılan, bilgisi güncellenen ve kapanan tesisler. Bu sayfayı <a href="rss.xml">RSS</a> ile takip edebilirsiniz.</p>
+<header class="ust">
+  <div class="kap menu">
+    <a class="logo" href="./">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="rgba(255,255,255,.16)"/><path d="M8 23V14l8-6 8 6v9h-5v-5h-6v5z" fill="#fff"/></svg>
+      Kamu Misafirhaneleri
+    </a>
+    <nav><a href="./">Harita</a><a href="degisiklikler.html" aria-current="page">Değişiklikler</a><a href="rss.xml">RSS</a></nav>
+  </div>
+  <div class="kap hero hero-kucuk">
+    <h1>Değişiklik geçmişi</h1>
+    <p>Yeni açılan, bilgisi güncellenen ve kapanan tesisler. <a href="rss.xml" style="color:#fff">RSS ile takip edin</a>.</p>
+  </div>
+</header>
+<main class="kap bolum">
 {{OLAYLAR}}
 </main>
 </body>

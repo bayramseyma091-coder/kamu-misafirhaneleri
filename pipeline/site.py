@@ -61,13 +61,14 @@ def _degisiklik_sayfasi(gunluk):
             f'<li><b>{escape(a)}</b>: <del>{escape(e or "—")}</del> → <ins>{escape(y or "—")}</ins></li>'
             for a, (e, y) in o.get("farklar", {}).items())
         satirlar.append(f"""<article class="olay olay-{o['tur']}" id="{t['tesisId']}">
-  <div class="olay-ust"><span class="rozet rozet-{o['tur']}">{ETIKET[o['tur']]}</span>
+  <div class="olay-ust"><span class="rozet">{ETIKET[o['tur']]}</span>
   <time datetime="{o['tarih']}">{_tarih(o['tarih']).strftime('%d.%m.%Y %H:%M')} UTC</time></div>
   <h3>{escape(t['tesisAdi'])}</h3>
   <p class="soluk">{escape(t['il'])}{' / ' + escape(t['ilce']) if t['ilce'] else ''} · {escape(t['bakanlik'])}</p>
   {f'<ul class="farklar">{farklar}</ul>' if farklar else ''}
 </article>""")
-    govde = "\n".join(satirlar) or '<p class="soluk">Henüz kayıtlı değişiklik yok. İlk veri yüklemesinden sonraki değişiklikler burada listelenecek.</p>'
+    govde = (f'<div class="zaman">{chr(10).join(satirlar)}</div>' if satirlar else
+             '<div class="bos-kart">Henüz kayıtlı değişiklik yok. İlk veri yüklemesinden sonraki değişiklikler burada listelenecek.</div>')
     sablon = (SABLON / "degisiklikler.html").read_text()
     return sablon.replace("{{OLAYLAR}}", govde)
 
