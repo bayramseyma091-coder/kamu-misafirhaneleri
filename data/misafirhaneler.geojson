@@ -11708,8 +11708,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     30.481606,
-     40.773183
+     30.693046,
+     41.110464
     ]
    },
    "properties": {
@@ -11725,7 +11725,7 @@
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
     "not": "",
-    "konumKaynagi": "il"
+    "konumKaynagi": "ilce"
    }
   },
   {
