@@ -1,5 +1,5 @@
 :root {
-  --zemin: #f4f6f9;
+  --zemin: #eef2f6;
   --kart: #ffffff;
   --metin: #142033;
   --soluk: #5d6b80;
@@ -39,11 +39,16 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
   font: 15px/1.55 "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  background: var(--zemin);
+  background:
+    radial-gradient(1200px 600px at 100% 30%, var(--vurgu-acik), transparent 70%),
+    radial-gradient(900px 500px at 0% 70%, var(--vurgu-acik), transparent 70%),
+    var(--zemin);
+  background-attachment: fixed;
   color: var(--metin);
+  min-height: 100vh;
 }
 a { color: var(--vurgu); }
-.kap { max-width: 1320px; margin: 0 auto; padding: 0 16px; }
+.kap { max-width: 1840px; margin: 0 auto; padding: 0 clamp(16px, 2.5vw, 40px); }
 .soluk { color: var(--soluk); }
 
 /* Üst şerit */
@@ -119,7 +124,7 @@ a { color: var(--vurgu); }
 
 /* Harita + liste */
 .sekme { display: none; }
-.duzen { display: grid; grid-template-columns: minmax(0, 1fr) 400px; gap: 16px; }
+.duzen { display: grid; grid-template-columns: minmax(0, 1fr) clamp(360px, 26vw, 460px); gap: 16px; }
 .harita-kap, .liste-kap {
   background: var(--kart); border: 1px solid var(--cizgi); border-radius: var(--yaricap);
   box-shadow: var(--golge); overflow: hidden;
@@ -172,7 +177,7 @@ ins { color: var(--yeni); text-decoration: none; font-weight: 500; }
 .bos-kart { background: var(--kart); border: 1px dashed var(--cizgi); border-radius: var(--yaricap); padding: 28px; text-align: center; color: var(--soluk); }
 
 /* Alt bilgi */
-.alt-bilgi { border-top: 1px solid var(--cizgi); margin-top: 40px; padding: 28px 0 40px; font-size: 13px; color: var(--soluk); }
+.alt-bilgi { border-top: 1px solid var(--cizgi); background: var(--kart); margin-top: 40px; padding: 28px 0 40px; font-size: 13px; color: var(--soluk); }
 .alt-bilgi .kap { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
 .alt-bilgi h4 { margin: 0 0 8px; font-size: 13px; color: var(--metin); }
 .alt-bilgi ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }

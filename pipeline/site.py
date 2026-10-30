@@ -1,4 +1,5 @@
 """Statik siteyi _site/ klasörüne üretir (GitHub Pages bu klasörü yayınlar)."""
+import hashlib
 import json
 import os
 import shutil
@@ -131,3 +132,8 @@ def uret():
     (CIKTI / "rss.xml").write_text(_rss(gunluk, guncelleme))
     (CIKTI / "metadata.xml").write_text(_metaveri(anlik, guncelleme))
     (CIKTI / ".nojekyll").write_text("")
+    # Tarayıcı önbelleğinin eski CSS/JS'i göstermemesi için sürüm ekle
+    for ad in ("stil.css", "uygulama.js"):
+        surum = hashlib.sha1((CIKTI / ad).read_bytes()).hexdigest()[:8]
+        for sayfa in CIKTI.glob("*.html"):
+            sayfa.write_text(sayfa.read_text().replace(f'"{ad}"', f'"{ad}?v={surum}"'))
