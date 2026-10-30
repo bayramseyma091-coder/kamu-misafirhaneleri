@@ -24,11 +24,10 @@
   const tesisler = veri.features;
 
   // Harita
-  const karanlik = matchMedia("(prefers-color-scheme: dark)").matches;
   const harita = L.map("harita", { zoomControl: true, scrollWheelZoom: true }).setView([39, 35.2], 6);
-  L.tileLayer(`https://{s}.basemaps.cartocdn.com/${karanlik ? "dark_all" : "light_all"}/{z}/{x}/{y}{r}.png`, {
-    maxZoom: 19, subdomains: "abcd",
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>',
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıcıları',
   }).addTo(harita);
   const kume = L.markerClusterGroup({
     maxClusterRadius: 48, showCoverageOnHover: false,
