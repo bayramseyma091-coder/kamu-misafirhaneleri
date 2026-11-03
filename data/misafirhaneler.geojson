@@ -7339,8 +7339,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     36.945906,
-     37.586161
+     36.93124,
+     37.579774
     ]
    },
    "properties": {
@@ -7439,6 +7439,31 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     37.290957,
+     37.613529
+    ]
+   },
+   "properties": {
+    "tesisId": "KM-51A1A401ED",
+    "tesisAdi": "Kahramanmaraş Polisevi Müdürlüğü",
+    "bakanlik": "İçişleri Bakanlığı",
+    "birim": "Emniyet Genel Müdürlüğü (EGM) - Polisevi Ağı",
+    "il": "Kahramanmaraş",
+    "ilce": "Merkez",
+    "adres": "Bahçelievler Mah. 90015 Sokak, İl Emniyet Müdürlüğü Ana Hizmet Binası D Blok Yerleşkesi, KAHRAMANMARAŞ",
+    "telefon": "(sitede yayınlı değil, e-posta: kahramanmaraspolisevi@egm.gov.tr)",
+    "kaynakUrl": "https://kahramanmaras.pol.tr/kahramanmaras-polisevi-mudurlugu-konaklama-hizmeti (RESMİ)",
+    "kaynakKodu": "manuel",
+    "dogrulama": "TAM DOĞRULANDI - 24 paylaşımlı, 21 double, 5 süit, 5 aile odası",
+    "not": "",
+    "konumKaynagi": "ilce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      37.442189,
      37.966147
     ]
@@ -7480,31 +7505,6 @@
     "kaynakUrl": "https://dhgm.meb.gov.tr/edestek/ogretmenevi/ogretmenevi_liste.aspx (RESMİ)",
     "kaynakKodu": "meb_dhgm",
     "dogrulama": "OTOMATİK - DHGM resmi listesinden çekildi",
-    "not": "",
-    "konumKaynagi": "ilce"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     37.290957,
-     37.613529
-    ]
-   },
-   "properties": {
-    "tesisId": "KM-51A1A401ED",
-    "tesisAdi": "Kahramanmaraş Polisevi Müdürlüğü",
-    "bakanlik": "İçişleri Bakanlığı",
-    "birim": "Emniyet Genel Müdürlüğü (EGM) - Polisevi Ağı",
-    "il": "Kahramanmaraş",
-    "ilce": "Merkez",
-    "adres": "Bahçelievler Mah. 90015 Sokak, İl Emniyet Müdürlüğü Ana Hizmet Binası D Blok Yerleşkesi, KAHRAMANMARAŞ",
-    "telefon": "(sitede yayınlı değil, e-posta: kahramanmaraspolisevi@egm.gov.tr)",
-    "kaynakUrl": "https://kahramanmaras.pol.tr/kahramanmaras-polisevi-mudurlugu-konaklama-hizmeti (RESMİ)",
-    "kaynakKodu": "manuel",
-    "dogrulama": "TAM DOĞRULANDI - 24 paylaşımlı, 21 double, 5 süit, 5 aile odası",
     "not": "",
     "konumKaynagi": "ilce"
    }
