@@ -7,7 +7,7 @@ from pipeline.model import anahtar_metin
 from pipeline.sayfalar import gercek_tel, iskelet, kisa, slug
 
 KAYNAK_ADI = {"manuel": "Excel listesi (elle güncellenen)", "meb_dhgm": "MEB DHGM öğretmenevi listesi (otomatik)",
-              "bildirim": "Ziyaretçi bildirimleri (onaylı)"}
+              "bildirim": "Ziyaretçi bildirimleri (onaylı)", "haber": "Haber taraması (elle doğrulanmış)"}
 AYLAR = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
 TUR_ADI = {"yeni": "Yeni açılan", "guncellendi": "Güncellenen", "kapandi": "Kapanan"}
 
@@ -103,9 +103,10 @@ def uret(cikti, anlik, gunluk, durum):
         kaynak_satir.append(f"""<tr><td>{escape(KAYNAK_ADI.get(kod, kod))}</td><td>{rozet}</td>
           <td>{sb.astimezone(timezone(timedelta(hours=3))).strftime('%d.%m.%Y %H:%M') if sb else '—'}</td>
           <td class="sag">{_sayi(sayac_kaynak.get(kod, 0))}</td></tr>""")
-    if sayac_kaynak.get("bildirim"):
-        kaynak_satir.append(f"<tr><td>{KAYNAK_ADI['bildirim']}</td><td>{_durum_rozet('iyi', 'Aktif')}</td><td>—</td>"
-                            f"<td class=\"sag\">{_sayi(sayac_kaynak['bildirim'])}</td></tr>")
+    for kod in ("haber", "bildirim"):
+        if sayac_kaynak.get(kod):
+            kaynak_satir.append(f"<tr><td>{KAYNAK_ADI[kod]}</td><td>{_durum_rozet('iyi', 'Aktif')}</td><td>—</td>"
+                                f"<td class=\"sag\">{_sayi(sayac_kaynak[kod])}</td></tr>")
 
     # Aylık değişiklik
     aylik = defaultdict(Counter)

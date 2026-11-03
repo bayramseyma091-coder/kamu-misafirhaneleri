@@ -1,0 +1,66 @@
+{
+ "degistir": {},
+ "kapat": {},
+ "ekle": [
+  {
+   "tesisId": "KM-CB54BD6482",
+   "tesisAdi": "Taşucu Polisevi",
+   "bakanlik": "İçişleri Bakanlığı",
+   "birim": "Emniyet Genel Müdürlüğü - Mersin İl Emniyet Müdürlüğü",
+   "il": "Mersin",
+   "ilce": "Silifke",
+   "adres": "Taşucu Polis Merkezi Amirliği yerleşkesi, Taşucu, Silifke/MERSİN",
+   "telefon": "",
+   "kaynakUrl": "https://www.silifkesesimiz.com/haber-tasucuna-modern-bir-polis-evi-acildi-9198.html",
+   "kaynakKodu": "haber",
+   "dogrulama": "Haberlerden derlendi (2026-11-03); resmî kurum listesiyle henüz teyit edilmedi",
+   "not": "12 odalı; polis merkezi binasının 2. katında. Temmuz 2026'da törenle hizmete açıldı.",
+   "konumKaynagi": ""
+  },
+  {
+   "tesisId": "KM-353F2E3C66",
+   "tesisAdi": "İstanbul Polisevi Riva Sosyal Tesisi",
+   "bakanlik": "İçişleri Bakanlığı",
+   "birim": "Emniyet Genel Müdürlüğü - İstanbul İl Emniyet Müdürlüğü",
+   "il": "İstanbul",
+   "ilce": "Beykoz",
+   "adres": "Riva Mah. Şehit Mehmet Ali Şener Cad. No:3, Beykoz/İSTANBUL",
+   "telefon": "0212 484 58 00",
+   "kaynakUrl": "https://www.medyabeykoz.com/istanbul-polisevi-riva-sosyal-tesisleri-acildi/",
+   "kaynakKodu": "haber",
+   "dogrulama": "Haberlerden derlendi (2026-11-03); resmî kurum listesiyle henüz teyit edilmedi",
+   "not": "16 Haziran 2026'da İstanbul Valisi'nin katılımıyla açıldı. Öncelik emniyet mensupları ve aileleri. Adres ve telefon rehber sitesinden (kamutesisleri.com); teyit edilmeli.",
+   "konumKaynagi": ""
+  },
+  {
+   "tesisId": "KM-4185282B79",
+   "tesisAdi": "Van Refakatçi Misafirhanesi",
+   "bakanlik": "Sağlık Bakanlığı",
+   "birim": "Van İl Sağlık Müdürlüğü",
+   "il": "Van",
+   "ilce": "",
+   "adres": "",
+   "telefon": "",
+   "kaynakUrl": "https://www.van65haber.com/vanda-hasta-yakinlari-icin-refakatci-misafirhanesi-hizmete-acildi",
+   "kaynakKodu": "haber",
+   "dogrulama": "Haberlerden derlendi (2026-11-03); resmî kurum listesiyle henüz teyit edilmedi",
+   "not": "66 yatak, 33 oda; hasta yakınları (refakatçiler) için, hastane yerleşkesinde. Mayıs 2026'da hizmete girdi.",
+   "konumKaynagi": ""
+  },
+  {
+   "tesisId": "KM-E8FC1383CE",
+   "tesisAdi": "Kaynaşlı Karayolları Misafirhanesi",
+   "bakanlik": "Ulaştırma ve Altyapı Bakanlığı",
+   "birim": "Karayolları 4. Bölge Müdürlüğü - Kaynaşlı Otoyol Bakım İşletme Şefliği",
+   "il": "Düzce",
+   "ilce": "Kaynaşlı",
+   "adres": "",
+   "telefon": "",
+   "kaynakUrl": "https://www.haberport.com/haber/kaynasliya-yerel-imkanlarla-restore-edilen-karayollari-misafirhanesi-hizmete-girdi/5213",
+   "kaynakKodu": "haber",
+   "dogrulama": "Haberlerden derlendi (2026-11-03); resmî kurum listesiyle henüz teyit edilmedi",
+   "not": "Yerel imkânlarla restore edilip Ağustos 2026'da hizmete alındı.",
+   "konumKaynagi": ""
+  }
+ ]
+}

@@ -16,6 +16,7 @@
     "Millî Savunma Bakanlığı": "#4d7c0f",
     "Kültür ve Turizm Bakanlığı": "#9333ea",
     "Sağlık Bakanlığı": "#0891b2",
+    "Ulaştırma ve Altyapı Bakanlığı": "#c2410c",
   };
   const YEDEK = ["#db2777", "#ea580c", "#0d9488", "#7c3aed", "#65a30d"];
   const renk = (b) => RENKLER[b] || (RENKLER[b] = YEDEK[Object.keys(RENKLER).length % YEDEK.length]);

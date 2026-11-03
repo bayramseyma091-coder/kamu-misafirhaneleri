@@ -25,6 +25,7 @@ RENKLER = {
     "Millî Savunma Bakanlığı": "#4d7c0f",
     "Kültür ve Turizm Bakanlığı": "#9333ea",
     "Sağlık Bakanlığı": "#0891b2",
+    "Ulaştırma ve Altyapı Bakanlığı": "#c2410c",
 }
 
 
