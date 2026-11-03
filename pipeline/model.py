@@ -27,6 +27,9 @@ ALANLAR = [
 # Değişiklik karşılaştırmasında dikkate alınan alanlar
 IZLENEN_ALANLAR = ["tesisAdi", "birim", "il", "ilce", "adres", "telefon"]
 
+# Kaynaklardaki kısaltılmış il adları
+IL_ADLARI = {"K.Maraş": "Kahramanmaraş", "K. Maraş": "Kahramanmaraş", "Afyon": "Afyonkarahisar", "Urfa": "Şanlıurfa", "Antep": "Gaziantep"}
+
 BOS_DEGERLER = {"", "-", "—", "none", "null"}
 
 
@@ -54,4 +57,5 @@ def kayit(**alanlar):
     r = {a: temizle(alanlar.get(a)) for a in ALANLAR}
     if not r["tesisId"]:
         r["tesisId"] = tesis_id(r["bakanlik"], r["il"], r["ilce"], r["tesisAdi"])
+    r["il"] = IL_ADLARI.get(r["il"], r["il"])
     return r

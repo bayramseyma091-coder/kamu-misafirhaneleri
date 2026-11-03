@@ -1,0 +1,62 @@
+name: Bilgi bildir
+description: Hatalı bilgi, kapanan tesis veya listede olmayan yeni bir tesis bildirin.
+title: "[Bildirim] "
+labels: ["bildirim"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bildiriminiz için teşekkürler. Site yöneticisi kontrol edip **onaylandı** etiketini eklediğinde bilgi otomatik olarak güncellenir.
+        Lütfen kişisel bilgi (TC kimlik no, kişisel telefon vb.) yazmayın.
+  - type: dropdown
+    id: tur
+    attributes:
+      label: Bildirim türü
+      options:
+        - Bilgi hatalı veya eksik
+        - Tesis kapandı
+        - Yeni tesis öneriyorum
+    validations:
+      required: true
+  - type: input
+    id: tesis_id
+    attributes:
+      label: Tesis kodu
+      description: Tesis sayfasından geldiyseniz otomatik dolar. Yeni tesis için boş bırakın.
+  - type: input
+    id: tesis_adi
+    attributes:
+      label: Tesis adı
+    validations:
+      required: true
+  - type: input
+    id: kurum
+    attributes:
+      label: Bağlı olduğu bakanlık
+      description: Yalnızca yeni tesis için. Örn. Millî Eğitim Bakanlığı
+  - type: input
+    id: il
+    attributes:
+      label: İl
+  - type: input
+    id: ilce
+    attributes:
+      label: İlçe
+  - type: input
+    id: adres
+    attributes:
+      label: Adres
+  - type: input
+    id: telefon
+    attributes:
+      label: Telefon
+  - type: input
+    id: kaynak
+    attributes:
+      label: Kaynak bağlantısı
+      description: Bilgiyi doğrulayan resmî sayfa, duyuru veya haber linki
+  - type: textarea
+    id: aciklama
+    attributes:
+      label: Açıklama
+      description: Neyin yanlış olduğunu veya ek bilgiyi yazın.

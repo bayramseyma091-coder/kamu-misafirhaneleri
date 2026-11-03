@@ -2,6 +2,7 @@
 import hashlib
 import json
 import os
+import re
 import shutil
 from datetime import datetime
 from email.utils import format_datetime
@@ -9,6 +10,7 @@ from html import escape
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
 
+from pipeline import sayfalar
 from pipeline.notify import ETIKET, metin
 
 KOK = Path(__file__).resolve().parents[1]
@@ -126,14 +128,22 @@ def uret():
     if CIKTI.exists():
         shutil.rmtree(CIKTI)
     shutil.copytree(SABLON, CIKTI, ignore=shutil.ignore_patterns("degisiklikler.html"))
-    for ad in ("misafirhaneler.geojson", "misafirhaneler.csv", "degisiklikler.json"):
+    for ad in ("misafirhaneler.csv", "degisiklikler.json"):
         shutil.copy(VERI / ad, CIKTI / ad)
+    sayfa_adlari = sayfalar.uret(CIKTI, anlik, gunluk, _site_url())
+    # Sitedeki GeoJSON'a tesis sayfası adını ekle (data/ altındaki kopya değişmez)
+    for f in anlik["features"]:
+        f.pop("sayfa", None)
+        f["properties"]["sayfa"] = sayfa_adlari[f["properties"]["tesisId"]]
+    (CIKTI / "misafirhaneler.geojson").write_text(json.dumps(anlik, ensure_ascii=False, separators=(",", ":")))
     (CIKTI / "degisiklikler.html").write_text(_degisiklik_sayfasi(gunluk))
     (CIKTI / "rss.xml").write_text(_rss(gunluk, guncelleme))
     (CIKTI / "metadata.xml").write_text(_metaveri(anlik, guncelleme))
     (CIKTI / ".nojekyll").write_text("")
     # Tarayıcı önbelleğinin eski CSS/JS'i göstermemesi için sürüm ekle
-    for ad in ("stil.css", "uygulama.js"):
-        surum = hashlib.sha1((CIKTI / ad).read_bytes()).hexdigest()[:8]
-        for sayfa in CIKTI.glob("*.html"):
-            sayfa.write_text(sayfa.read_text().replace(f'"{ad}"', f'"{ad}?v={surum}"'))
+    surumler = {ad: hashlib.sha1((CIKTI / ad).read_bytes()).hexdigest()[:8] for ad in ("stil.css", "uygulama.js", "sayfa.js")}
+    for sayfa in CIKTI.rglob("*.html"):
+        metin_ = sayfa.read_text()
+        for ad, surum in surumler.items():
+            metin_ = re.sub(rf'"((?:\.\./)?){re.escape(ad)}"', rf'"\g<1>{ad}?v={surum}"', metin_)
+        sayfa.write_text(metin_)

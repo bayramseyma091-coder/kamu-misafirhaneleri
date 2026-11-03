@@ -36,7 +36,7 @@ def topla():
     for satir in satirlar:
         ham = {SUTUNLAR[b]: v for b, v in zip(basliklar, satir) if b in SUTUNLAR}
         ad = temizle(ham.get("tesisAdi"))
-        if not ad or ad.upper().startswith(ATLANACAK_AD):
+        if not ad or ad.upper().startswith(ATLANACAK_AD) or "kendi tesisi yok" in ad.lower():
             continue
         sonuc.append(kayit(**ham, kaynakKodu=KOD))
     return sonuc

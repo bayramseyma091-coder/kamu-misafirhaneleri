@@ -9,7 +9,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from pipeline import notify, site
+from pipeline import duzeltme, notify, site
 from pipeline.geocode import Konumlayici
 from pipeline.model import ALANLAR, IZLENEN_ALANLAR
 from pipeline.sources import manuel, meb_dhgm
@@ -71,6 +71,9 @@ def calistir(konumla=True, bildir=True):
             yeni[k["tesisId"]] = k
         kd.update(son_basari=simdi, kayit_sayisi=len(kayitlar), hata=None)
 
+    # Yönetici onaylı kullanıcı bildirimleri (data/duzeltmeler.json)
+    duzeltme.uygula(yeni)
+
     # 2) Konumla (önbellekli; sorgu sınırı dolarsa önceki konum korunur)
     konumlayici = Konumlayici() if konumla else None
     geometriler = {}
@@ -97,9 +100,15 @@ def calistir(konumla=True, bildir=True):
             farklar = {a: [eski.get(a, ""), k[a]] for a in IZLENEN_ALANLAR if eski.get(a, "") != k[a]}
             if farklar:
                 olaylar.append({"tur": "guncellendi", "tesis": k, "farklar": farklar})
+        kapatilan = set(duzeltme.yukle().get("kapat", {}))
         for tid, f in onceki.items():
             p = f["properties"]
-            if tid in yeni or tid in sessiz or p["kaynakKodu"] not in basarili:
+            if tid in yeni or tid in sessiz:
+                continue
+            if tid in kapatilan:  # yönetici onaylı kapanış: kaynağın durumundan bağımsız
+                olaylar.append({"tur": "kapandi", "tesis": p})
+                continue
+            if p["kaynakKodu"] not in basarili:
                 continue
             onceki_sayi = sum(1 for g in onceki.values() if g["properties"]["kaynakKodu"] == p["kaynakKodu"])
             simdiki_sayi = sum(1 for g in yeni.values() if g["kaynakKodu"] == p["kaynakKodu"])

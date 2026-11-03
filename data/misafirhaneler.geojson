@@ -11,25 +11,6 @@
  "features": [
   {
    "type": "Feature",
-   "geometry": null,
-   "properties": {
-    "tesisId": "KM-BCCF30ED30",
-    "tesisAdi": "İDARİ KOORDİNATÖR (kendi tesisi yok)",
-    "bakanlik": "Millî Savunma Bakanlığı",
-    "birim": "Sosyal İşletmeler Daire Başkanlığı (Personel GM altında)",
-    "il": "",
-    "ilce": "",
-    "adres": "",
-    "telefon": "",
-    "kaynakUrl": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=5870&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5 (RESMİ MEVZUAT)",
-    "kaynakKodu": "manuel",
-    "dogrulama": "TAM DOĞRULANDI - resmi 'Ordu Evleri, Askeri Gazinolar ve Sosyal Tesisler Yönetmeliği' (mevzuat.gov.tr)",
-    "not": "ÖNEMLİ: 211 sayılı Kanun'un 98. maddesine göre TSK'nın orduevi, askeri gazino, kışla gazinosu, vardiya yatakhanesi ağı MSB izniyle kuruluyor. Bu Daire Başkanlığı bu ağın idari koordinasyonunu yapıyor (MEB'deki DHGM'ye benzer rol). Kendi ayrı bir tesisi yok, TSK genelindeki tüm orduevi ağını yönetiyor.",
-    "konumKaynagi": "yok"
-   }
-  },
-  {
-   "type": "Feature",
    "geometry": {
     "type": "Point",
     "coordinates": [
@@ -1500,31 +1481,6 @@
     "kaynakKodu": "manuel",
     "dogrulama": "DOĞRULANAMADI - ktb.gov.tr'de resmi sayfa yok. Üçüncü parti/rezervasyon siteleri 'Kültür ve Turizm Bakanlığı Kamuya Ait Tesis, İşletme Belge No:7239' bilgisini veriyor ama bu resmi bir .gov.tr kaynağı değil.",
     "not": "",
-    "konumKaynagi": "ilce"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     32.855497,
-     39.885332
-    ]
-   },
-   "properties": {
-    "tesisId": "KM-DF87E315BD",
-    "tesisAdi": "İDARİ SORUMLU (kendi tesisi yok)",
-    "bakanlik": "Millî Eğitim Bakanlığı",
-    "birim": "Destek Hizmetleri Genel Müdürlüğü",
-    "il": "Ankara",
-    "ilce": "Çankaya",
-    "adres": "Atatürk Bulvarı No:98, Bakanlıklar/ANKARA",
-    "telefon": "0312 413 26 80/81",
-    "kaynakUrl": "https://dhgm.meb.gov.tr/meb_iys_dosyalar/2024_12/10115915_2023dhgmbirimfaaliyetraporu.pdf (RESMİ) ; https://dhgm.meb.gov.tr/www/gorevleri/icerik/416 (RESMİ)",
-    "kaynakKodu": "manuel",
-    "dogrulama": "TAM DOĞRULANDI - Resmi Gazete'de yayımlanan (6/2/2021-31387-CK-70/9) görev tanımı ve dhgm.meb.gov.tr resmi sayfası",
-    "not": "ÖNEMLİ: Bu GM, Bakanlığın TÜM öğretmenevi/misafirhane/akşam sanat okulu ağının (539 tesis) resmi idari sorumlusu. Bünyesinde özel 'Sosyal Tesisler ve İşletmeler Daire Başkanlığı' var. Kendi ayrı bir misafirhanesi yok ama Bakanlığın tüm bu tesislerini yönetiyor - Başkent Öğretmenevi de bu GM'nin sorumluluğunda.",
     "konumKaynagi": "ilce"
    }
   },
@@ -7342,7 +7298,7 @@
     "tesisAdi": "Afşin Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Afşin",
     "adres": "",
     "telefon": "0344 511 24 34",
@@ -7367,7 +7323,7 @@
     "tesisAdi": "Şehit Hakan Taşgıt Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Andırın",
     "adres": "",
     "telefon": "0344 561 25 48",
@@ -7392,7 +7348,7 @@
     "tesisAdi": "Şehit Hanifi Çakallıoğlu Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Dulkadiroğlu",
     "adres": "",
     "telefon": "0344 225 55 80",
@@ -7417,7 +7373,7 @@
     "tesisAdi": "Ekinözü Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Ekinözü",
     "adres": "",
     "telefon": "0534 507 16 46",
@@ -7442,7 +7398,7 @@
     "tesisAdi": "Elbistan Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Elbistan",
     "adres": "",
     "telefon": "0344 415 30 25",
@@ -7467,7 +7423,7 @@
     "tesisAdi": "Prf. Dr. Mehmet Sağlam Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Göksun",
     "adres": "",
     "telefon": "0344 714 35 60",
@@ -7492,7 +7448,7 @@
     "tesisAdi": "Nurhak Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Nurhak",
     "adres": "",
     "telefon": "0506 511 6578",
@@ -7517,7 +7473,7 @@
     "tesisAdi": "Çağlayancerit Öğretmenevi ve Akşam Sanat Okulu",
     "bakanlik": "Millî Eğitim Bakanlığı",
     "birim": "Bakanlık (Merkez) - Öğretmenevi Ağı (Tam Liste)",
-    "il": "K.Maraş",
+    "il": "Kahramanmaraş",
     "ilce": "Çağlayancerit",
     "adres": "",
     "telefon": "0344 351 24 45",

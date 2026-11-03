@@ -3,6 +3,10 @@
   const esc = (s) => String(s || "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const norm = (s) => String(s || "").toLocaleLowerCase("tr");
   const telLink = (t) => "tel:" + String(t).split(/[\/(]/)[0].replace(/[^\d+]/g, "");
+  const gercekTel = (t) => (String(t || "").match(/\d/g) || []).length >= 7;
+  const telYaz = (t) => !t ? "" : gercekTel(t)
+    ? `<a class="tel" href="${telLink(t)}">${TEL_IKON}${esc(t)}</a>`
+    : `<span class="tel-yok">Telefon: ${esc(t.replace(/^\(|\)$/g, ""))}</span>`;
   const TEL_IKON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>';
 
   // Bakanlık renkleri
@@ -42,8 +46,9 @@
     <h3>${esc(p.tesisAdi)}</h3>
     <p class="soluk">${esc(p.il)}${p.ilce ? " / " + esc(p.ilce) : ""}</p>
     ${p.adres ? `<p>${esc(p.adres)}</p>` : ""}
-    ${p.telefon ? `<p><a class="tel" href="${telLink(p.telefon)}">${TEL_IKON}${esc(p.telefon)}</a></p>` : ""}
+    ${p.telefon ? `<p>${telYaz(p.telefon)}</p>` : ""}
     ${p.konumKaynagi && p.konumKaynagi !== "adres" ? `<p class="not">Konum yaklaşık (${p.konumKaynagi === "il" ? "il" : "ilçe"} merkezi)</p>` : ""}
+    ${p.sayfa ? `<p class="popup-eylem"><a href="tesis/${p.sayfa}.html">Ayrıntılar ve yol tarifi →</a></p>` : ""}
   </div>`;
 
   tesisler.forEach((f, i) => {
@@ -84,21 +89,60 @@
   $("s-il").textContent = new Set(tesisler.map((f) => f.properties.il).filter(Boolean)).size;
   $("s-guncel").textContent = new Date(veri.guncelleme).toLocaleDateString("tr", { day: "numeric", month: "short", year: "numeric" });
 
+  const kmYaz = (km) => km < 10 ? km.toLocaleString("tr", { maximumFractionDigits: 1 }) + " km" : Math.round(km).toLocaleString("tr") + " km";
   const kart = (f) => {
     const p = f.properties;
-    return `<button class="tesis" data-i="${f.i}" style="--renk:${renk(p.bakanlik)}">
+    return `<div class="tesis" role="button" tabindex="0" data-i="${f.i}" style="--renk:${renk(p.bakanlik)}">
+      ${konum && f.km != null ? `<span class="mesafe">${kmYaz(f.km)}</span>` : ""}
       <h3>${esc(p.tesisAdi)}</h3>
       <p class="yer">${esc(p.il)}${p.ilce ? " / " + esc(p.ilce) : ""}</p>
       <div class="alt"><span class="etiket">${esc(kisaAd(p.bakanlik))}</span>
-      ${p.telefon ? `<a class="tel" href="${telLink(p.telefon)}">${TEL_IKON}${esc(p.telefon)}</a>` : ""}</div>
-    </button>`;
+      ${telYaz(p.telefon)}
+      ${p.sayfa ? `<a class="detay-link" href="tesis/${p.sayfa}.html">Ayrıntılar →</a>` : ""}</div>
+    </div>`;
   };
+
+  // Yakınımdakiler
+  let konum = null, konumIsaret = null;
+  const mesafe = (a, b, c, d) => {
+    const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2;
+    return 12742 * Math.asin(Math.sqrt(x));
+  };
+  const durum = (m) => { $("yakin-durum").hidden = !m; $("yakin-durum").textContent = m || ""; };
+  $("yakin").addEventListener("click", () => {
+    if (konum) {
+      konum = null;
+      if (konumIsaret) harita.removeLayer(konumIsaret);
+      $("yakin").setAttribute("aria-pressed", "false");
+      $("liste-sira").textContent = "A → Z, ile göre";
+      durum("");
+      return guncelle(true);
+    }
+    if (!navigator.geolocation) return durum("Tarayıcınız konum özelliğini desteklemiyor.");
+    durum("Konumunuz alınıyor…");
+    navigator.geolocation.getCurrentPosition((pos) => {
+      konum = [pos.coords.latitude, pos.coords.longitude];
+      tesisler.forEach((f) => (f.km = f.geometry ? mesafe(konum[0], konum[1], f.geometry.coordinates[1], f.geometry.coordinates[0]) : null));
+      if (konumIsaret) harita.removeLayer(konumIsaret);
+      konumIsaret = L.circleMarker(konum, { radius: 9, color: "#fff", weight: 3, fillColor: "#0ea5e9", fillOpacity: 1 })
+        .bindTooltip("Konumunuz").addTo(harita);
+      $("yakin").setAttribute("aria-pressed", "true");
+      $("liste-sira").textContent = "En yakından uzağa";
+      durum("Tesisler size olan uzaklığa göre sıralandı. Mesafeler kuş uçuşudur ve konumlar yaklaşıktır.");
+      gorunumSec("liste");
+      guncelle(false);
+      const yakinlar = tesisler.filter((f) => f.km != null).sort((a, b) => a.km - b.km).slice(0, 8);
+      harita.fitBounds(L.latLngBounds([konum, ...yakinlar.map((f) => f.isaret.getLatLng())]).pad(0.2));
+    }, () => durum("Konum izni verilmedi. Tarayıcı ayarlarından bu siteye konum izni verip tekrar deneyin."),
+    { enableHighAccuracy: false, timeout: 15000, maximumAge: 600000 });
+  });
 
   let zamanlayici;
   function guncelle(sigdir) {
     const q = norm($("f-ara").value.trim()), il = $("f-il").value;
     const gorunen = tesisler.filter((f) =>
       (!secili.size || secili.has(f.properties.bakanlik)) && (!il || f.properties.il === il) && (!q || f.ara.includes(q)));
+    if (konum) gorunen.sort((a, b) => (a.km ?? 1e9) - (b.km ?? 1e9));
     const isaretler = gorunen.filter((f) => f.isaret).map((f) => f.isaret);
     kume.clearLayers();
     kume.addLayers(isaretler);
@@ -115,8 +159,11 @@
   $("f-ara").addEventListener("input", () => { clearTimeout(zamanlayici); zamanlayici = setTimeout(() => guncelle(true), 200); });
   $("f-il").addEventListener("change", () => guncelle(true));
 
+  $("liste").addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("tesis")) { e.preventDefault(); e.target.click(); }
+  });
   $("liste").addEventListener("click", (e) => {
-    if (e.target.closest(".tel")) return;
+    if (e.target.closest("a")) return;
     const el = e.target.closest(".tesis");
     const f = el && tesisler[el.dataset.i];
     if (!f || !f.isaret) return;
@@ -143,6 +190,10 @@
       </article>`).join("")
     : '<div class="bos-kart">Henüz değişiklik yok. Bir tesis açıldığında, kapandığında ya da bilgisi değiştiğinde burada görünecek.</div>';
   if (!olaylar.length) $("son-olaylar").classList.remove("zaman");
+
+  // Yeni tesis bildirimi (GitHub formu)
+  const DEPO = "bayramseyma091-coder/kamu-misafirhaneleri";
+  $("yeni-bildir").href = `https://github.com/${DEPO}/issues/new?template=bilgi-bildir.yml&title=${encodeURIComponent("[Yeni tesis] ")}&tur=${encodeURIComponent("Yeni tesis öneriyorum")}`;
 
   guncelle(false);
 })();

@@ -20,6 +20,16 @@ Günde iki kez (07:17 ve 19:17 TSİ) GitHub Actions şu adımları çalıştır�
 - Bir kaynaktan önceki kayıtların yarısından azı gelirse kapanışlar yok sayılır.
 - Yeni bir kaynak ilk kez çalıştığında mevcut verinin yerine sessizce geçer, bildirim yağmuru olmaz.
 
+## Ziyaretçi bildirimleri
+
+Tesis sayfalarındaki **"Hatalı bilgi bildirin"** ve ana sayfadaki **"Listede olmayan bir tesis bildirin"** bağlantıları GitHub'da önceden doldurulmuş bir form açar. Bildirim yapmak için GitHub hesabı gerekir.
+
+1. Bildirimler deponun **Issues** sekmesine `bildirim` etiketiyle düşer.
+2. Kontrol edip doğruysa **`onaylandı`** etiketini ekleyin.
+3. Sistem bildirimi `data/duzeltmeler.json` dosyasına işler, siteyi günceller, değişikliği yayınlar ve bildirimi teşekkür mesajıyla kapatır.
+
+Onaylanan düzeltmeler resmî kaynaktaki değerin üzerine yazılır. Bir düzeltmeyi geri almak için `data/duzeltmeler.json` dosyasından ilgili satırı silin.
+
 ## Elle güncelleme
 
 Excel dosyasını düzenleyip `data/kaynak/` altına aynı adla koyun ve depoya gönderin (GitHub web arayüzünden "Upload files" yeterli).
@@ -37,7 +47,11 @@ Sistem birkaç dakika içinde değişiklikleri tespit edip yayınlar.
 
 | Dosya | İçerik |
 |---|---|
-| `index.html` | Harita ve aranabilir liste |
+| `index.html` | Harita, aranabilir liste, "Yakınımdakiler" |
+| `tesis/*.html` | Her tesis için ayrı sayfa: telefon, yol tarifi, paylaş, değişiklik geçmişi |
+| `il/*.html`, `iller.html` | İl sayfaları ve il listesi |
+| `sitemap.xml`, `robots.txt` | Arama motorları için |
+| `manifest.webmanifest`, `sw.js` | Telefona uygulama olarak yükleme ve çevrimdışı kullanım |
 | `degisiklikler.html` | Değişiklik geçmişi |
 | `rss.xml` | Son 100 değişiklik (RSS 2.0) |
 | `misafirhaneler.geojson` | Tüm tesisler, EPSG:4326 |

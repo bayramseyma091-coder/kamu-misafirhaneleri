@@ -4,12 +4,15 @@ on:
   schedule:
     - cron: "17 4,16 * * *"   # her gün 07:17 ve 19:17 (TSİ)
   workflow_dispatch:
+  issues:
+    types: [labeled]   # bildirime "onaylandı" etiketi eklenince uygulanır
   push:
     branches: [main]
     paths: ["data/kaynak/**", "pipeline/**", "site/**"]
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -19,6 +22,7 @@ concurrency:
 
 jobs:
   guncelle:
+    if: github.event_name != 'issues' || github.event.label.name == 'onaylandı'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -33,6 +37,10 @@ jobs:
 
       - id: pages
         uses: actions/configure-pages@v5
+
+      - name: Onaylanan bildirimi uygula
+        if: github.event_name == 'issues'
+        run: python -m pipeline.duzeltme "$GITHUB_EVENT_PATH" "$RUNNER_TEMP/bildirim_sonuc.txt"
 
       - name: Topla, karşılaştır, siteyi üret
         env:
@@ -55,3 +63,16 @@ jobs:
           path: _site
       - id: yayin
         uses: actions/deploy-pages@v4
+
+      - name: Bildirimi yanıtla ve kapat
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SAYI: ${{ github.event.issue.number }}
+        run: |
+          SONUC="$(cat "$RUNNER_TEMP/bildirim_sonuc.txt")"
+          if [[ "$SONUC" == "⚠️"* ]]; then
+            gh issue comment "$SAYI" --repo "$GITHUB_REPOSITORY" --body "$SONUC"$'\n\nBildirimi düzeltip etiketi kaldırıp yeniden ekleyebilirsiniz.'
+          else
+            gh issue close "$SAYI" --repo "$GITHUB_REPOSITORY" --comment "$SONUC"$'\n\nSite güncellendi: ${{ steps.yayin.outputs.page_url }}\nTeşekkürler!'
+          fi
