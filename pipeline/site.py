@@ -10,7 +10,7 @@ from html import escape
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
 
-from pipeline import sayfalar
+from pipeline import panel, sayfalar
 from pipeline.notify import ETIKET, metin
 
 KOK = Path(__file__).resolve().parents[1]
@@ -131,6 +131,8 @@ def uret():
     for ad in ("misafirhaneler.csv", "degisiklikler.json"):
         shutil.copy(VERI / ad, CIKTI / ad)
     sayfa_adlari = sayfalar.uret(CIKTI, anlik, gunluk, _site_url())
+    durum_yolu = VERI / "durum.json"
+    panel.uret(CIKTI, anlik, gunluk, json.loads(durum_yolu.read_text()) if durum_yolu.exists() else {})
     # Sitedeki GeoJSON'a tesis sayfası adını ekle (data/ altındaki kopya değişmez)
     for f in anlik["features"]:
         f.pop("sayfa", None)

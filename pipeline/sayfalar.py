@@ -64,7 +64,8 @@ def kaynak_url(metin):
 def iskelet(baslik, aciklama, govde, kok="", aktif="", hero="", ek_bas="", ek_son="", jsonld=None):
     nav = "".join(
         f'<a href="{kok}{h}"{" aria-current=\"page\"" if aktif == a else ""}>{a}</a>'
-        for a, h in (("Harita", "./"), ("İller", "iller.html"), ("Değişiklikler", "degisiklikler.html"), ("RSS", "rss.xml")))
+        for a, h in (("Harita", "./"), ("İller", "iller.html"), ("Değişiklikler", "degisiklikler.html"), ("Panel", "yonetim.html"),
+                     ("RSS", "rss.xml")))
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     return f"""<!doctype html>
 <html lang="tr">
@@ -269,7 +270,7 @@ def uret(cikti, anlik, gunluk, site_url):
     (cikti / "iller.html").write_text(_iller_sayfasi(iller))
 
     # Arama motorları için site haritası
-    adresler = ["", "iller.html", "degisiklikler.html"] + [f"il/{slug(il) or 'diger'}.html" for il in iller] + \
+    adresler = ["", "iller.html", "degisiklikler.html", "yonetim.html"] + [f"il/{slug(il) or 'diger'}.html" for il in iller] + \
                [f"tesis/{f['sayfa']}.html" for f in anlik["features"]]
     tarih = anlik["guncelleme"][:10]
     (cikti / "sitemap.xml").write_text(
